@@ -1,0 +1,27 @@
+@import "styles/colors";
+
+
+.banner{
+  margin-bottom: 40px;
+}
+.box{
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  color: $b;
+}
+.inner{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  background-color: $sc;
+}
+.title{
+  font-size: 40px;
+
+}
+.text{
+  font-size: 24px;
+  font-weight: 50;
+}

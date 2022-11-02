@@ -1,0 +1,28 @@
+@import "styles/colors";
+.nav{
+  margin-right: auto;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background-color: $s;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+.link{
+  padding: 12px 40px;
+  transition: all .3s;
+  &:hover{
+    background-color: $accent;
+    color: $b;
+  }
+  .active{
+    background-color: $accent;
+  }
+}
+.flex{
+  display: flex;
+  align-items: center;
+  //justify-content: center;
+}
