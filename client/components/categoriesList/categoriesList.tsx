@@ -6,18 +6,15 @@ import Link from "next/link";
 
 
 const state = [
-    {id: '1', img: img1, name: 'Выхлопная система', price: 'от 4 800'},
-    {id: '2', img: img1, name: 'Двигатель', price: 'от 4 800'},
-    // {id: '3', img: img1, name: 'Электрооборудование', price: 'от 4 800'},
-    // {id: '4', img: img1, name: 'Шиномонтаж', price: 'от 4 800'},
-    // {id: '5', img: img1, name: 'Диагностика', price: 'от 4 800'},
-    {id: '6', img: img1, name: 'Замена жидкостей', price: 'от 4 800'},
-    {id: '7', img: img1, name: 'Трансмиссия', price: 'от 4 800'},
-    {id: '8', img: img1, name: 'Кондиционеры и отопление', price: 'от 4 800'},
-    {id: '9', img: img1, name: 'Тормозная система', price: 'от 4 800'},
-    {id: '10', img: img1, name: 'Рулевое управление', price: 'от 4 800'},
-    {id: '11', img: img1, name: 'Техническое обслуживание', price: 'от 4 800'},
-    {id: '12', img: img1, name: 'Подвеска', price: 'от 4 800'},
+    {id: '1', img: img1, name:"", title: 'Выхлопная система', price: 'от 4 800'},
+    {id: '2', img: img1, name:"dvigatel", title: 'Двигатель', price: 'от 4 800'},
+    {id: '6', img: img1, name:"zamena-zhidkostej", title: 'Замена жидкостей', price: 'от 4 800'},
+    {id: '7', img: img1, name:"transmissiya", title: 'Трансмиссия', price: 'от 4 800'},
+    {id: '8', img: img1, name:"", title: 'Кондиционеры и отопление', price: 'от 4 800'},
+    {id: '9', img: img1, name:"", title: 'Тормозная система', price: 'от 4 800'},
+    {id: '10', img: img1, name:"", title: 'Рулевое управление', price: 'от 4 800'},
+    {id: '11', img: img1, name:"tekhnicheskoe-obsluzhivanie", title: 'Техническое обслуживание', price: 'от 4 800'},
+    {id: '12', img: img1, name:"", title: 'Подвеска', price: 'от 4 800'},
 ]
 
 const CategoriesList = () => {
@@ -32,7 +29,7 @@ const CategoriesList = () => {
 
                                 <Link className={cls.item} href={`/services/` + item.name}>
                                     <div className={cls.box}>
-                                        <div className={cls.title}>{item.name}</div>
+                                        <div className={cls.title}>{item.title}</div>
                                         <div className={cls.price}>{item.price}</div>
                                     </div>
                                     <div className={cls.img}>

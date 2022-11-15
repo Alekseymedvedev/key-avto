@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="создание клиента">
+    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="создание сервера">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/banner/banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/banner/banner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/styles/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/styles/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/categories/categories.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/categories/categories.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/categories/categories.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/categories/categories.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/categories/categories.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/categories/categories.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/categories/categories.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/categories/categories.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/categories/dto/create-category.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/categories/dto/create-category.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/works/dto/create-works.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/works/dto/create-works.dto.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +44,7 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/aleks/Desktop/web/react_prodject/key-avto/server",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\aleks\\Desktop\\web\\react_prodject\\key-avto\\client\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\aleks\\Desktop\\web\\react_prodject\\key-avto\\server\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -56,7 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1668496067244</updated>
       <workItem from="1668496068847" duration="7906000" />
-      <workItem from="1668504327979" duration="1086000" />
+      <workItem from="1668504327979" duration="6543000" />
+      <workItem from="1668510980859" duration="3461000" />
     </task>
     <task id="LOCAL-00001" summary="создание клиента">
       <created>1668504706162</created>
@@ -65,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668504706162</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="создание сервера">
+      <created>1668505582097</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668505582097</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="создание клиента" />
-    <option name="LAST_COMMIT_MESSAGE" value="создание клиента" />
+    <MESSAGE value="создание сервера" />
+    <option name="LAST_COMMIT_MESSAGE" value="создание сервера" />
   </component>
 </project>

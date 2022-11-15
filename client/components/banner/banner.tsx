@@ -43,7 +43,9 @@ const Banner = () => {
                                         <div className={cls.text}>{item.text}</div>
                                         <Form/>
                                     </div>
-                                    <Image src={item.img} placeholder="blur" alt="banner"/>
+                                    <div className="">
+                                        <Image src={item.img} placeholder="blur" alt="banner"/>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                         )
