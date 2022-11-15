@@ -1,0 +1,8 @@
+@import "styles/colors";
+
+.workTime{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: $sc;
+}

@@ -1,0 +1,15 @@
+@import "styles/colors";
+
+.title{
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.inner{
+  display: flex;
+  gap: 16px;
+  a:hover{
+    transform: scale(1.2);
+  }
+}
