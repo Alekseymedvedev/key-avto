@@ -1,0 +1,12 @@
+@import "styles/colors";
+
+
+.phoneLink{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: $bc;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+}
