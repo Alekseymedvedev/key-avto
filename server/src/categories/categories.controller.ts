@@ -1,18 +1,22 @@
-import {Body, Controller, Get, Param, Post} from '@nestjs/common';
+import {Body, Controller, Get, Param, Post, UploadedFile, UseInterceptors} from '@nestjs/common';
 import {CategoriesService} from "./categories.service";
 import {CreateCategoryDto} from "./dto/create-category.dto";
 import {WorkCategory} from "../works/works.model";
+import {FileInterceptor} from "@nestjs/platform-express";
+import {CreateWorksDto} from "../works/dto/create-works.dto";
 
 @Controller('/categories')
 export class CategoriesController {
 
     constructor(private categoriesService:CategoriesService) {}
 
-    @Post()
-    create(@Body()categoryDto:CreateCategoryDto){
-        return this.categoriesService.createCategory(categoryDto)
-    }
 
+    @Post()
+    @UseInterceptors(FileInterceptor('image'))
+    create(@Body() categoryDto:CreateCategoryDto,
+               @UploadedFile() image) {
+        return this.categoriesService.createCategory(categoryDto, image)
+    }
     @Get()
     getAll(){
        return this.categoriesService.getAllCategories();

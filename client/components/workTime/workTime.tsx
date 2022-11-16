@@ -5,8 +5,9 @@ import cls from './workTime.module.scss'
 
 const WorkTime = () => {
     return (
-        <div>
-            c 9/00 lj 20.00
+        <div className={cls.workTime}>
+            <span>График работы</span>
+            <span>С 10.00 до 20.00 пн.-пт.</span>
         </div>
     );
 };

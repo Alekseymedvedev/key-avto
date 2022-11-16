@@ -1,6 +1,8 @@
 import React from 'react';
 import Button from "../UI/button/button";
 import cls from './priceTable.module.scss'
+import Modal from "../modal/modal";
+import Form from "../form/form";
 
 const PriceTable = () => {
     return (
@@ -22,7 +24,9 @@ const PriceTable = () => {
                         <td data-v-845870f2="">40 минут</td>
                         <td data-v-845870f2="">ОТ 800 руб.</td>
                         <td className="last-cl">
-                            <Button>Записаться на ТО</Button>
+                            <Modal textBtn="Записаться на ТО">
+                                <Form/>
+                            </Modal>
                         </td>
                     </tr>
 

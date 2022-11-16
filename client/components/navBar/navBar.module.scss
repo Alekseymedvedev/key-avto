@@ -18,8 +18,9 @@
     background-color: $accent;
     color: $b;
   }
-  .active{
+  &.active{
     background-color: $accent;
+    color: $b;
   }
 }
 .flex{

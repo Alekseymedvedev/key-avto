@@ -1,7 +1,10 @@
 body{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
-
+h2{
+  margin-bottom: 32px;
+  font-size: 32px;
+}
 .container {
   max-width: 1170px;
   width: 100%;

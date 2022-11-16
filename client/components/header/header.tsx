@@ -1,41 +1,37 @@
-import React, {FC} from 'react';
 import cls from './header.module.scss'
 import Link from "next/link";
 import logo from '../../images/Logo.svg'
-import wp from '../../images/icons/whatsapp.svg'
-import tg from '../../images/icons/telegram.svg'
-import sk from '../../images/icons/skype.svg'
-import phone from '../../images/icons/call.svg'
-import Image from 'next/image'
 import WorkTime from "../workTime/workTime";
 import Social from "../social/social";
+import Phone from "../phone/phone";
+import {useRouter} from "next/router";
 
-interface T {
-    Image(): FC
-}
 
 const Header = () => {
+    const router = useRouter()
     return (
         <header className={cls.header}>
             <div className="container">
                 <div className={cls.inner}>
-                    <Link href='/'>
-                        LOGO
-                        {/*<a><Image className={cls.logo} src={logo} alt=""/></a>*/}
-                    </Link>
+                    {
+                        router.route ==='/'
+                            ?
+                            <span className={cls.logo}>
+                            КЛЮЧ-АВТО
+                        </span>
+                            :
+                            <Link className={cls.logo} href='/'>
+                                КЛЮЧ-АВТО
+                            </Link>
+                    }
                     <WorkTime/>
+
                     <div className={cls.phone}>
-                        <a className={cls.phoneLink} href="tel:89202537813">
-                            <Image src={phone} alt=""/>
-                            413-78-13
-                        </a>
-                        <a className={cls.phoneLink} href="tel:89202537813">
-                            <Image src={phone} alt=""/>
-                            +7-920-253-78-13
-                        </a>
+                        <Phone phone="+7(831)413-78-13"/>
+                        <Phone phone="+7-920-253-78-13"/>
                     </div>
 
-                    {/*<Social/>*/}
+                    <Social/>
 
                 </div>
             </div>

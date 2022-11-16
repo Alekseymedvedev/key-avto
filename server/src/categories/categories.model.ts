@@ -3,7 +3,8 @@ import {WorkCategory} from "../works/works.model";
 
 interface CategoryCreateAttrs {
     name: string;
-    img: string;
+    title: string;
+    image: string;
 }
 
 @Table({tableName: 'categories'})
@@ -14,10 +15,14 @@ export class Category extends Model<Category, CategoryCreateAttrs> {
     @Column({type: DataType.STRING, unique: true, allowNull: false})
     name: string;
 
-    @Column({type: DataType.STRING})
-    img: string;
+    @Column({type: DataType.STRING, unique: true, allowNull: false})
+    title: string;
 
-    @HasMany(()=>WorkCategory)
-    worksCategories:WorkCategory[]
+    @Column({type: DataType.STRING})
+
+    image: string;
+
+    @HasMany(() => WorkCategory)
+    worksCategories: WorkCategory[]
 }
 

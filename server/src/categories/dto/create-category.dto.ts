@@ -1,4 +1,4 @@
 export class CreateCategoryDto{
     readonly name: string;
-    readonly img: string;
+    readonly image: string;
 }

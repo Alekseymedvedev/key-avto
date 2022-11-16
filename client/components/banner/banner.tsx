@@ -43,7 +43,10 @@ const Banner = () => {
                                         <div className={cls.text}>{item.text}</div>
                                         <Form/>
                                     </div>
-                                    <Image src={item.img} placeholder="blur" alt="banner"/>
+                                    <Image
+                                        src={item.img}
+                                        alt="banner"
+                                    />
                                 </div>
                             </SwiperSlide>
                         )
@@ -52,9 +55,7 @@ const Banner = () => {
 
                 </Swiper>
             </div>
-            {/*<Modal visible={modal} setVisible={setModal}>*/}
-            {/*Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci blanditiis delectus dolore eius eveniet excepturi facilis in ipsam, ipsum laudantium maiores nam nobis nostrum quia quidem quos repudiandae tempore velit.*/}
-            {/*</Modal>*/}
+
         </section>
     );
 };

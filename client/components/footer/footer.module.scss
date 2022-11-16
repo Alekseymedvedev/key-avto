@@ -1,7 +1,36 @@
 @import "styles/colors";
 
-
+.logo{
+  color: $accent;
+  font-size: 24px;
+  font-weight: 900;
+}
 .footer{
-  height: 100px;
-  background-color: $sc;
+  padding: 56px 0;
+  background-color: $s;
+}
+.inner{
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
+  gap:32px;
+
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.menuList{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.link{
+  max-width: max-content;
+  display: inline-block;
+  padding: 10px 24px;
+  color: $sc;
+}
+.list{
+  column-count: 2;
 }
