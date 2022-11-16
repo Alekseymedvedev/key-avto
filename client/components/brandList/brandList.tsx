@@ -27,13 +27,13 @@ const BrandList = () => {
     return (
         <section className={cls.brandList + " _vrm"}>
             <div className="container">
-                <h2>Наши любимые марки</h2>
+                <h2>Мы обслуживаем</h2>
                 <ul className={cls.list}>
                     {
                         state.map(item=>
                             <li key={item.id} className={cls.item}>
                                 <Link  href={`/brand/`+item.id}>
-                                    <Image src={item.img}/>
+                                    <Image src={item.img} alt={item.name}/>
                                 </Link>
                             </li>
                         )

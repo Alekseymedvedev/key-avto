@@ -7,7 +7,7 @@ import MapSection from "../../components/mapSection/mapSection";
 
 const HomePage = () => {
     return (
-        <MainLayot>
+        <MainLayot title="Главная">
             <Banner/>
             <CategoriesList/>
             <BrandList/>

@@ -9,20 +9,18 @@
   justify-content: space-between;
   gap: 24px;
 }
-
+.logo{
+  color: $accent;
+  font-size: 24px;
+  font-weight: 900;
+}
 .phone{
   display: flex;
   flex-direction: column;
   gap: 8px;
-  font-weight: 500;
-  font-size: 19px;
-  line-height: 24px;
+
 }
-.phoneLink{
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
+
 .phoneLinkImg{
   width: 40px;
   height: 40px;

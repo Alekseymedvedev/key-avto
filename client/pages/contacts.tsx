@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 import MainLayot from "../layot/mainLayot";
-import ContactsPage from "../component/contactsPage/contactsPage";
+import ContactsPage from "../screens/contactsPage/contactsPage";
 
 interface T {
     aaa?: any
@@ -9,7 +9,7 @@ interface T {
 const Contacts: FC<T> = ({aaa}) => {
     return (
 
-        <MainLayot>
+        <MainLayot title="Главная">
             <ContactsPage/>
         </MainLayot>
     );

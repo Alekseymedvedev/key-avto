@@ -1,17 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="создание сервера">
+    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="добавление файлов для категорий">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/banner/banner.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/banner/banner.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/components/banner/banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/banner/banner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/brandList/brandList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/brandList/brandList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/footer/footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/footer/footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/footer/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/header/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/header/header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/modal/modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/modal/modal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/navBar/navBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/navBar/navBar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/navBar/navBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/navBar/navBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/priceTable/priceTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/priceTable/priceTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/social/social.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/social/social.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/social/social.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/social/social.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/workTime/workTime.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/workTime/workTime.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/workTime/workTime.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/workTime/workTime.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/layot/mainLayot.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/layot/mainLayot.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/about.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/car-brand.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/car-brand.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/services.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/services.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/screens/contactsPage/contactsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/screens/contactsPage/contactsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/screens/homePage/homePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/screens/homePage/homePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/styles/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/styles/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/styles/reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/categories/categories.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/categories/categories.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/categories/categories.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/categories/categories.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/categories/categories.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/categories/categories.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/categories/categories.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/categories/categories.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/categories/dto/create-category.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/categories/dto/create-category.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/works/dto/create-works.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/works/dto/create-works.dto.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +87,12 @@
       <updated>1668496067244</updated>
       <workItem from="1668496068847" duration="7906000" />
       <workItem from="1668504327979" duration="6543000" />
-      <workItem from="1668510980859" duration="3461000" />
+      <workItem from="1668510980859" duration="3931000" />
+      <workItem from="1668534973375" duration="2301000" />
+      <workItem from="1668538484045" duration="1108000" />
+      <workItem from="1668567033812" duration="4171000" />
+      <workItem from="1668587754503" duration="7403000" />
+      <workItem from="1668599870749" duration="4002000" />
     </task>
     <task id="LOCAL-00001" summary="создание клиента">
       <created>1668504706162</created>
@@ -82,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668505582097</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="добавление файлов для категорий">
+      <created>1668515047290</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668515047290</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +135,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="создание клиента" />
     <MESSAGE value="создание сервера" />
-    <option name="LAST_COMMIT_MESSAGE" value="создание сервера" />
+    <MESSAGE value="добавление файлов для категорий" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавление файлов для категорий" />
   </component>
 </project>

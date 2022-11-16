@@ -3,7 +3,7 @@ import MainLayot from "../layot/mainLayot";
 
 const Services = () => {
     return (
-        <MainLayot>
+        <MainLayot title="Главная">
         </MainLayot>
     );
 };

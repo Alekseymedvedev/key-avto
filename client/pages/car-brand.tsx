@@ -3,7 +3,7 @@ import MainLayot from "../layot/mainLayot";
 
 const CarBrand = () => {
     return (
-        <MainLayot>
+        <MainLayot title="Главная">
             car-brand
         </MainLayot>
     );
