@@ -28,7 +28,7 @@ const CategoriesList = () => {
                         state.map(item =>
                             <li key={item.id}>
 
-                                <Link className={cls.item} href={`/services/` + item.name}>
+                                <Link className={cls.item} href={`/categories/` + item.name}>
                                     <div className={cls.box}>
                                         <div className={cls.title}>{item.title}</div>
                                         {/*<div className={cls.price}>{item.name}</div>*/}

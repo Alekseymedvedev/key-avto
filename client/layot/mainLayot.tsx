@@ -22,7 +22,6 @@ const MainLayot:FC<MainLayoutProps> = ({children,title}) => {
             </Head>
 
             <Header/>
-            <NavBar/>
             {children}
 
             <Footer/>

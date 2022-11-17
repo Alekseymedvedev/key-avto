@@ -1,27 +1,47 @@
 @import "styles/colors";
 .header{
-  padding: 16px;
-  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.148328);
+  padding: 16px 0 0;
+  margin-bottom: 16px;
+  //box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.148328);
+  position: relative;
 }
 .inner{
+  margin-bottom: 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.box{
+  display: flex;
+  align-items: center;
   gap: 24px;
 }
 .logo{
+  width: 240px;
   color: $accent;
   font-size: 24px;
   font-weight: 900;
+  background-color: $s;
 }
-.phone{
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-
+.menuBtn{
+  display: none;
 }
 
-.phoneLinkImg{
-  width: 40px;
-  height: 40px;
+@media (max-width: 992px){
+  .workTime{
+    display: none;
+  }
+
+}
+@media (max-width: 670px){
+  .menuBtn{
+    display: block;
+    padding: 10px;
+    svg{
+      width: 30px;
+      height: 30px;
+    }
+  }
 }

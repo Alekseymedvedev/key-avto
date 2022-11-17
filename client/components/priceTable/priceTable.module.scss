@@ -5,14 +5,18 @@
   width: 100%;
   border-collapse: collapse;
   border: 1px solid $s;
-
+  white-space: nowrap;
+  thead{
+    background-color: $accent;
+    font-weight: 700;
+  }
   th {
-    font-weight: normal;
     padding: 10px 15px;
     border: 1px solid $s;
   }
 
   td {
+
     padding: 10px 15px;
     border: 1px solid $s;
     text-align: center;
@@ -20,5 +24,15 @@
 
   tr:nth-child(2n) {
     background: $s;
+  }
+}
+.name{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+@media (max-width: 980px){
+  .tableContainer{
+    overflow-x: scroll;
   }
 }

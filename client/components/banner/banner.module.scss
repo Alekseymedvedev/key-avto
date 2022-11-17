@@ -1,11 +1,12 @@
 @import "styles/colors";
 
-
 .banner{
-  margin-bottom: 40px;
+  h1{
+    text-transform: uppercase;
+  }
 }
 .box{
-  padding: 32px;
+  padding: 56px 32px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -24,4 +25,25 @@
 .text{
   font-size: 24px;
   font-weight: 50;
+}
+.boxImg{
+  position: relative;
+  img{
+    object-fit: cover;
+  }
+}
+@media (max-width: 670px){
+
+.box{
+  position: relative;
+  z-index: 10;
+}
+  .inner{
+    grid-template-columns: 1fr;
+  }
+  .boxImg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
 }

@@ -5,7 +5,7 @@ import Image from "next/image";
 const Social = () => {
     return (
         <div className={cls.social}>
-            <div className={cls.title}>Написать в</div>
+            {/*<div className={cls.title}>Написать в</div>*/}
             <div className={cls.inner}>
                 <a className={cls.link + ' ' + cls.telegram} href="https://t.me/Amed152" target="_blank">
                     <svg id="icon-telegram" viewBox="0 0 32 32">

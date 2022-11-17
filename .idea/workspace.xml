@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="">
+    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="верстка, адаптив">
+      <change afterPath="$PROJECT_DIR$/client/styles/globals.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/banner/banner.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/banner/banner.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/banner/banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/banner/banner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/brandList/brandList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/brandList/brandList.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/brandList/brandList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/brandList/brandList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/footer/footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/footer/footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/footer/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/header/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/header/header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/header/header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/components/mapSection/mapSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/mapSection/mapSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/navBar/navBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/navBar/navBar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/navBar/navBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/navBar/navBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/phone/phone.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/phone/phone.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/phone/phone.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/phone/phone.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/priceTable/priceTable.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/priceTable/priceTable.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/priceTable/priceTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/priceTable/priceTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/social/social.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/social/social.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/social/social.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/social/social.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/workTime/workTime.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/workTime/workTime.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/layot/mainLayot.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/layot/mainLayot.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/vercel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/vercel.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/styles/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/categories/categories.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/categories/categories.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/categories/categories.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/categories/categories.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,17 +57,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/aleks/Desktop/web/react_prodject/key-avto/server&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\aleks\\Desktop\\web\\react_prodject\\key-avto\\server\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/aleks/Desktop/web/react_prodject/key-avto/server",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\aleks\\Desktop\\web\\react_prodject\\key-avto\\client\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\server" />
@@ -66,6 +92,7 @@
       <workItem from="1668567033812" duration="4171000" />
       <workItem from="1668587754503" duration="7403000" />
       <workItem from="1668599870749" duration="4002000" />
+      <workItem from="1668662898393" duration="22590000" />
     </task>
     <task id="LOCAL-00001" summary="создание клиента">
       <created>1668504706162</created>
@@ -88,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668515047290</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="добавление карты">
+      <created>1668612044541</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668612044541</updated>
+    </task>
+    <task id="LOCAL-00005" summary="добавление карты">
+      <created>1668612068424</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668612068424</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +150,8 @@
     <MESSAGE value="создание клиента" />
     <MESSAGE value="создание сервера" />
     <MESSAGE value="добавление файлов для категорий" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавление файлов для категорий" />
+    <MESSAGE value="добавление карты" />
+    <MESSAGE value="верстка, адаптив" />
+    <option name="LAST_COMMIT_MESSAGE" value="верстка, адаптив" />
   </component>
 </project>

@@ -23,8 +23,8 @@ export class CategoriesController {
     }
 
 
-    @Get(':id')
-    getOne(@Param('id') id) {
-        return this.categoriesService.getOne(id);
+    @Get(':name')
+    getOne(@Param('name') name) {
+        return this.categoriesService.getOne(name);
     }
 }

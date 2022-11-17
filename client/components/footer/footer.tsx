@@ -39,8 +39,7 @@ const Footer = () => {
                                 </Link>
                         }
 
-                        <Phone phone="+7(831)413-78-13"/>
-                        <Phone phone="+7-920-253-78-13"/>
+                        <Phone/>
                         <Modal textBtn="Записаться на ТО">
                             <Form/>
                         </Modal>
@@ -49,13 +48,14 @@ const Footer = () => {
                     <ul className={cls.menuList}>
                         {
                             routesPage.map(item =>
-                                <Link
-                                    className={router.route === item.path ? cls.link + ' ' + cls.active : cls.link}
-                                    href={item.path}
-                                    key={item.path}
-                                >
-                                    {item.name}
-                                </Link>
+                                <li key={item.path}>
+                                    <Link
+                                        className={router.route === item.path ? cls.link + ' ' + cls.active : cls.link}
+                                        href={item.path}
+                                    >
+                                        {item.name}
+                                    </Link>
+                                </li>
                             )
                         }
                     </ul>
@@ -64,7 +64,7 @@ const Footer = () => {
                             state.map(item =>
                                 <li key={item.id}>
                                     <Link className={cls.link} href={`/services/` + item.name}>
-                                       {item.title}
+                                        {item.title}
                                     </Link>
                                 </li>
                             )

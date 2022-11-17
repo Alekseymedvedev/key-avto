@@ -3,18 +3,21 @@ import {FC} from "react";
 
 export async function getStaticProps() {
     const url = process.env.BASE_URL || 'https://jsonplaceholder.typicode.com'
-    const res = await fetch(url+"/posts")
+    const res = await fetch(url)
+    const res2 = await fetch(`${url}/vichlop`)
     const data = await res.json()
+    const data2 = await res2.json()
 
     return {
-        props: {context:data}, // will be passed to the page component as props
+        props: {context:data, works:data2}, // will be passed to the page component as props
     }
 }
 interface T{
     context?:any
+    works:any
 }
- const Home:FC<T>=({context})=> {
-     // console.log(context)
+
+ const Home:FC<T>=()=> {
     return (
         <div>
             <HomePage/>

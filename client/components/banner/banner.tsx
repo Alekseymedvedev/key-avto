@@ -31,7 +31,7 @@ const Banner = () => {
 
 
     return (
-        <section className="_vrm">
+        <section className={cls.banner +" _vrm"}>
             <div className="container">
                 <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
                     {
@@ -43,16 +43,20 @@ const Banner = () => {
                                         <div className={cls.text}>{item.text}</div>
                                         <Form/>
                                     </div>
+                                    <div className={cls.boxImg}>
                                     <Image
                                         src={item.img}
                                         alt="banner"
+                                        fill
+                                        placeholder="blur"
+                                        // sizes="(max-width: 768px) 300px,
+                                        //   (max-width: 1200px) 600px"
                                     />
+                                    </div>
                                 </div>
                             </SwiperSlide>
                         )
                     }
-
-
                 </Swiper>
             </div>
 

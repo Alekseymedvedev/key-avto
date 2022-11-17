@@ -1,7 +1,7 @@
 @import "styles/colors";
-.nav{
+
+.nav {
   margin-right: auto;
-  margin-bottom: 24px;
   display: flex;
   align-items: center;
   gap: 24px;
@@ -10,22 +10,48 @@
   font-size: 18px;
   line-height: 24px;
 }
-.link{
+
+.link {
   padding: 12px 40px;
   transition: all .3s;
   color: $bc;
-  &:hover{
+
+  &:hover {
     background-color: $accent;
     color: $b;
   }
-  &.active{
+
+  &.active {
     background-color: $accent;
     color: $b;
   }
 }
-.flex{
+
+.menu {
   width: 100%;
   display: flex;
   align-items: center;
   //justify-content: center;
+}
+
+
+@media (max-width: 670px) {
+
+  .menu {
+    flex-direction: column;
+    width: 100%;
+    background-color: $b;
+    position: absolute;
+    top: 80px;
+    z-index: 10;
+    transform: translateX(-120%);
+    transition: all .3s;
+    &.active {
+
+      transform: translateX(-5%);
+    }
+  }
+  .link {
+    width: 100%;
+  }
 }

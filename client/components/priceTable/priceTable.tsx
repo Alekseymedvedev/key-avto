@@ -1,37 +1,60 @@
 import React from 'react';
-import Button from "../UI/button/button";
 import cls from './priceTable.module.scss'
 import Modal from "../modal/modal";
 import Form from "../form/form";
+import img from "../../images/banner1.png"
+import Image from "next/image";
+
+const state = [
+    {id: 1, img: img, name: 'Масло в двигателе - замена', price: '500', time: 30},
+    {id: 2, img: img, name: 'Масло в двигателе - замена', price: '500', time: 30},
+    {id: 3, img: img, name: 'Масло в двигателе - замена', price: '500', time: 30},
+    {id: 4, img: img, name: 'Масло в двигателе - замена', price: '500', time: 30},
+]
+
 
 const PriceTable = () => {
     return (
         <section className="_vrm">
             <div className="container">
                 <h2>ТЕХНИЧЕСКОЕ ОБСЛУЖИВАНИЕ</h2>
-                <table className={cls.table}>
-                    <thead>
-                    <tr className="to__table-head" data-v-845870f2="">
-                        <th className="org" data-v-845870f2="">Название работы</th>
-                        <th className="lg" data-v-845870f2="">Требует времени</th>
-                        <th className="dg" data-v-845870f2="">Цена руб.</th>
-                        <th className="last-cl lg" data-v-845870f2=""></th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td data-v-845870f2="">Масло в двигателе - замена</td>
-                        <td data-v-845870f2="">40 минут</td>
-                        <td data-v-845870f2="">ОТ 800 руб.</td>
-                        <td className="last-cl">
-                            <Modal textBtn="Записаться на ТО">
-                                <Form/>
-                            </Modal>
-                        </td>
-                    </tr>
-
-                    </tbody>
-                </table>
+                <div className={cls.tableContainer}>
+                    <table className={cls.table}>
+                        <thead>
+                        <tr>
+                            <th>Название работы</th>
+                            <th>Цена руб.</th>
+                            <th>Требует времени</th>
+                            <th>Запись</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {
+                            state.map(item=>
+                                <tr key={item.id}>
+                                    <td className={cls.name}>
+                                        <Image
+                                            width={100}
+                                            height={100}
+                                            src={item.img}
+                                            alt={item.name}
+                                            placeholder="blur"
+                                        />
+                                        {item.name}
+                                    </td>
+                                    <td>{item.price}</td>
+                                    <td>{item.time}</td>
+                                    <td>
+                                        <Modal textBtn="Записаться на ТО">
+                                            <Form/>
+                                        </Modal>
+                                    </td>
+                                </tr>
+                            )
+                        }
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </section>
     );

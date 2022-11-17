@@ -24,7 +24,7 @@ const MapSection = () => {
                         <ZoomControl options={{  }} />
                     </Map>
                 </YMaps>
-              
+
             </div>
         </section>
     );
