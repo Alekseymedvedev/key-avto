@@ -1,0 +1,25 @@
+@import "styles/colors";
+
+.address{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: $sc ;
+  svg{
+    fill: $sc;
+  }
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (max-width: 670px){
+  .address{
+    svg{
+      display: none;
+    }
+  }
+}
