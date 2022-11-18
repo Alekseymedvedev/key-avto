@@ -1,5 +1,5 @@
 import PriceTable from "../../components/priceTable/priceTable";
-import MainLayot from "../../layot/mainLayot";
+import MainLayout from "../../layout/mainLayout";
 import Image from "next/image";
 import img from "../../images/banner1.png";
 import React from "react";
@@ -10,7 +10,7 @@ const Category = () => {
     const route= useRouter()
     console.log(route)
     return (
-        <MainLayot title="Category">
+        <MainLayout title="Category">
             <section className="categorySection _vrm">
                 <div className="container">
                     <h1>{route.query.id}</h1>
@@ -41,7 +41,7 @@ const Category = () => {
                 </div>
             </section>
             <PriceTable heading="Наши работы"/>
-        </MainLayot>
+        </MainLayout>
     );
 };
 

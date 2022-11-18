@@ -28,7 +28,9 @@ P {
   margin: 0 auto;
   padding: 0 15px;
 }
-
+.main{
+  padding: 56px 0;
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

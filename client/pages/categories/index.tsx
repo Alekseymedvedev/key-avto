@@ -1,13 +1,13 @@
-import MainLayot from "../../layot/mainLayot";
+import MainLayout from "../../layout/mainLayout";
 import CategoriesList from "../../components/categoriesList/categoriesList";
 import React from "react";
 ;
 
 const Index = () => {
     return (
-        <MainLayot title="Услуги">
+        <MainLayout title="Услуги">
             <CategoriesList/>
-        </MainLayot>
+        </MainLayout>
     );
 };
 

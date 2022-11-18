@@ -1,11 +1,11 @@
 import React from 'react';
-import MainLayot from "../layot/mainLayot";
+import MainLayout from "../layout/mainLayout";
 import Image from "next/image";
 import img from '../images/banner1.png'
 
 const About = () => {
     return (
-        <MainLayot title="О нас">
+        <MainLayout title="О нас">
             <section className="_vrm">
                 <div className="container">
                     <h1>О нас</h1>
@@ -35,7 +35,7 @@ const About = () => {
                     </div>
                 </div>
             </section>
-        </MainLayot>
+        </MainLayout>
     );
 };
 

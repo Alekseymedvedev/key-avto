@@ -1,4 +1,8 @@
-import React from 'react';
+import {Swiper, SwiperSlide} from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import {Navigation, Pagination} from "swiper";
 import img1 from "../../images/brand/toyota.png";
 import img2 from "../../images/brand/opel.png";
 import img3 from "../../images/brand/chevrolet.png";
@@ -11,11 +15,7 @@ import img9 from "../../images/brand/nissan.png";
 import cls from './brandList.module.scss'
 import Image from "next/image";
 import Link from "next/link";
-import {Swiper, SwiperSlide} from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import {Navigation, Pagination} from "swiper";
+
 
 const state = [
     {id: '1', img: img1, name: 'toyota'},
@@ -57,7 +57,7 @@ const BrandList = () => {
                     {
                         state.map(item =>
                             <SwiperSlide key={item.id} className={cls.item}>
-                                <Link href={`/car-brand/` + item.id} className={cls.link}>
+                                <Link href={`/car-brand/` + item.name} className={cls.link}>
                                     <Image src={item.img} alt={item.name}/>
                                 </Link>
                             </SwiperSlide>

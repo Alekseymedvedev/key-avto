@@ -1,13 +1,15 @@
 import React from 'react';
 import Button from "../UI/button/button";
-import InputMask from "../UI/inputMask/inputMask";
+import cls from './form.module.scss'
+import Input from "../UI/input/inputMask";
 
 const Form = () => {
     return (
-        <form>
-            {/*<InputMask/>*/}
+        <form className={cls.form}>
+            <div className={cls.title}>Заполните форму</div>
+            <Input/>
             <Button>
-                Узнать цену
+                Отправить заявку
             </Button>
         </form>
     );

@@ -7,6 +7,8 @@ import img1 from '../../images/banner1.png'
 import Image from 'next/image'
 import cls from './banner.module.scss'
 import Form from "../form/form";
+import Modal from "../modal/modal";
+import React from "react";
 
 const state = [
     {
@@ -41,7 +43,9 @@ const Banner = () => {
                                     <div className={cls.box}>
                                         <h1 className={cls.title}>{item.title}</h1>
                                         <div className={cls.text}>{item.text}</div>
-                                        <Form/>
+                                        <Modal textBtn="Узнать больше">
+                                            <Form/>
+                                        </Modal>
                                     </div>
                                     <div className={cls.boxImg}>
                                     <Image

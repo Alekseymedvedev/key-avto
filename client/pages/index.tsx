@@ -1,5 +1,5 @@
 import {FC} from "react";
-import MainLayot from "../layot/mainLayot";
+import MainLayout from "../layout/mainLayout";
 import Banner from "../components/banner/banner";
 import CategoriesList from "../components/categoriesList/categoriesList";
 import BrandList from "../components/brandList/brandList";
@@ -25,13 +25,13 @@ interface T{
  const Home:FC<T>=({context,works})=> {
      // console.log(context,works)
     return (
-        <MainLayot title="Главная страница">
+        <MainLayout title="Главная страница">
             <Banner/>
             <CategoriesList/>
             <BrandList/>
             <PriceTable heading="Наши работы"/>
             <MapSection heading="Мы находимся здесь"/>
-        </MainLayot>
+        </MainLayout>
     )
 }
 export default Home

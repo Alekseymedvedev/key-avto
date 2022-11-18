@@ -1,11 +1,11 @@
 import React, {FC} from 'react';
 import cls from './mapSection.module.scss'
-import {Placemark, Map, YMaps, ZoomControl} from "@pbe/react-yandex-maps";
+import {Placemark, Map, YMaps, ZoomControl, GeoObject} from "@pbe/react-yandex-maps";
 
 interface T{
     heading?: string
 }
-
+const mapState = { center: [56.353385, 43.878920], zoom: 15 };
 const MapSection:FC<T> = ({heading}) => {
 
     return (
@@ -13,18 +13,26 @@ const MapSection:FC<T> = ({heading}) => {
 
             <div className="container">
                 {heading && <h2>{heading}</h2>}
-
-
-                <YMaps >
+                <YMaps>
                     <Map
                         width={100+'%'}
                         height={470}
-                        defaultState={{
-                            center: [56.353385, 43.878920],
-                            zoom: 15,
-                        }}
+                        state={mapState}
                     >
-                        <Placemark geometry={[56.353385, 43.878920]} options={{balloonContent: '<img src="http://img-fotki.'}}/>
+                        <GeoObject
+                            geometry={{
+                                type: 'Point',
+                                coordinates: [56.353385, 43.878920],
+                            }}
+                            properties={{
+                                iconContent: '"КЛЮЧ-АВТО"',
+                                // hintContent: 'Ну давай уже тащи',
+                            }}
+                            options={{
+                                preset: 'islands#nightStretchyIcon',
+                                draggable: true,
+                            }}
+                        />
                         <ZoomControl options={{  }} />
                     </Map>
                 </YMaps>

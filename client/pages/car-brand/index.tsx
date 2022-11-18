@@ -1,9 +1,12 @@
+import BrandList from "../../components/brandList/brandList";
+import MainLayout from "../../layout/mainLayout";
+import React from "react";
 
 const Index = () => {
     return (
-        <section>
-
-        </section>
+        <MainLayout title="Обслуживаемые бренды">
+            <BrandList/>
+        </MainLayout>
     );
 };
 

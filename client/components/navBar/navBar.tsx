@@ -16,6 +16,7 @@ const NavBar:FC<T> = ({menuActive}) => {
 
             }
             <div className="container">
+
                 <div className={menuActive ? cls.menu +' '+ cls.active : cls.menu}>
                     {
                         routesPage.map(item =>

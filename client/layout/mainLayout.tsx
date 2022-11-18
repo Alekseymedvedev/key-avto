@@ -10,7 +10,7 @@ interface MainLayoutProps {
     description?: string;
     keywords?: string;
 }
-const MainLayot:FC<MainLayoutProps> = ({children,title}) => {
+const MainLayout:FC<MainLayoutProps> = ({children,title}) => {
     return (
         <div>
             <Head>
@@ -21,11 +21,14 @@ const MainLayot:FC<MainLayoutProps> = ({children,title}) => {
             </Head>
 
             <Header/>
-            {children}
+
+            <main className="main">
+                {children}
+            </main>
 
             <Footer/>
         </div>
     );
 };
 
-export default MainLayot;
+export default MainLayout;
