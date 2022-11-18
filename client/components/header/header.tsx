@@ -1,6 +1,6 @@
 import cls from './header.module.scss'
 import Link from "next/link";
-import logo from '../../images/Logo.svg'
+import logo from '../../public/logo.svg'
 import WorkTime from "../workTime/workTime";
 import Social from "../social/social";
 import Phone from "../phone/phone";
@@ -8,11 +8,12 @@ import {useRouter} from "next/router";
 import Address from "../address/address";
 import NavBar from "../navBar/navBar";
 import React, {useState} from "react";
+import Image from "next/image";
+import Logo from "../logo/logo";
 
 
 const Header = () => {
     const [menuActive, setMenuActive] = useState(false)
-    const router = useRouter()
     return (
         <header className={cls.header}>
             <div className="container">
@@ -35,17 +36,7 @@ const Header = () => {
                                 </svg>
                         }
                     </button>
-                    {
-                        router.route === '/'
-                            ?
-                            <span className={cls.logo}>
-                            КЛЮЧ-АВТО
-                        </span>
-                            :
-                            <Link className={cls.logo} href='/'>
-                                КЛЮЧ-АВТО
-                            </Link>
-                    }
+                    <Logo/>
                     <Address/>
                     <div className={cls.box}>
                         <Phone type="header"/>
@@ -57,6 +48,7 @@ const Header = () => {
 
                 </div>
             </div>
+
             <NavBar menuActive={menuActive ? menuActive : ''}/>
 
         </header>

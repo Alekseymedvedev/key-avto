@@ -3,6 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="верстка, адаптив">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/address/address.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/address/address.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/address/address.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/address/address.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/brandList/brandList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/brandList/brandList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/category/category.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/category/category.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/footer/footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/footer/footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/footer/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/header/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/header/header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/mapSection/mapSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/mapSection/mapSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/phone/phone.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/phone/phone.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/phone/phone.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/phone/phone.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/priceTable/priceTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/priceTable/priceTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/social/social.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/social/social.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/workTime/workTime.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/workTime/workTime.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/workTime/workTime.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/workTime/workTime.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/layot/mainLayot.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/layot/mainLayot.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/about.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/car-brand.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/categories/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/categories/[id].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/services.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/routes/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/routes/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/screens/contactsPage/contactsPage.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/screens/contactsPage/contactsPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/screens/homePage/homePage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/styles/globals.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,17 +56,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/aleks/Desktop/web/react_prodject/key-avto/server",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\aleks\\Desktop\\web\\react_prodject\\key-avto\\client\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aleks/Desktop/web/react_prodject/key-avto/server&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\aleks\\Desktop\\web\\react_prodject\\key-avto\\client\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\server" />
@@ -63,7 +91,10 @@
       <workItem from="1668567033812" duration="4171000" />
       <workItem from="1668587754503" duration="7403000" />
       <workItem from="1668599870749" duration="4002000" />
-      <workItem from="1668662898393" duration="23411000" />
+      <workItem from="1668662898393" duration="23577000" />
+      <workItem from="1668695073832" duration="2391000" />
+      <workItem from="1668701371713" duration="4846000" />
+      <workItem from="1668750636507" duration="12296000" />
     </task>
     <task id="LOCAL-00001" summary="создание клиента">
       <created>1668504706162</created>
@@ -107,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668689823867</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="верстка, адаптив">
+      <created>1668690271734</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668690271734</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

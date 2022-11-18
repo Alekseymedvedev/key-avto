@@ -1,7 +1,6 @@
 import React, {FC} from 'react';
 import Head from "next/head";
 import Header from "../components/header/header";
-import NavBar from "../components/navBar/navBar";
 import Footer from "../components/footer/footer";
 
 

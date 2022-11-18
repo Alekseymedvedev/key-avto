@@ -5,15 +5,17 @@
   font-size: 18px;
   font-weight: 500;
 }
-
-.inner{
-  display: flex;
-  gap: 16px;
-  flex-direction: column;
+.social{
   position: fixed;
   top: 100px;
   right: 5%;
   z-index: 100;
+}
+.inner{
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+
   a:hover{
     transform: scale(1.2);
   }

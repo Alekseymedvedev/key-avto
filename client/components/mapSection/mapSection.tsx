@@ -1,15 +1,19 @@
-import React from 'react';
+import React, {FC} from 'react';
 import cls from './mapSection.module.scss'
 import {Placemark, Map, YMaps, ZoomControl} from "@pbe/react-yandex-maps";
 
+interface T{
+    heading?: string
+}
 
-const MapSection = () => {
+const MapSection:FC<T> = ({heading}) => {
 
     return (
         <section className={cls.mapSection+ " _vrm"}>
 
             <div className="container">
-                <h2>Мы находимся здесь</h2>
+                {heading && <h2>{heading}</h2>}
+
 
                 <YMaps >
                     <Map

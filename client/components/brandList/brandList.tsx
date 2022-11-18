@@ -57,7 +57,7 @@ const BrandList = () => {
                     {
                         state.map(item =>
                             <SwiperSlide key={item.id} className={cls.item}>
-                                <Link href={`/brand/` + item.id} className={cls.link}>
+                                <Link href={`/car-brand/` + item.id} className={cls.link}>
                                     <Image src={item.img} alt={item.name}/>
                                 </Link>
                             </SwiperSlide>

@@ -1,5 +1,9 @@
 @import "styles/colors";
-
+.heading{
+  margin-bottom: 16px;
+  font-size: 22px;
+  font-weight: 500;
+}
 .address{
   display: flex;
   align-items: center;
@@ -9,6 +13,7 @@
     fill: $sc;
   }
 }
+
 .box{
   display: flex;
   flex-direction: column;

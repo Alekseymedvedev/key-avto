@@ -4,6 +4,9 @@
   margin-bottom: 16px;
   //box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.148328);
   position: relative;
+  svg{
+    fill: $accent;
+  }
 }
 .inner{
   margin-bottom: 24px;
@@ -18,13 +21,7 @@
   align-items: center;
   gap: 24px;
 }
-.logo{
-  width: 240px;
-  color: $accent;
-  font-size: 24px;
-  font-weight: 900;
-  background-color: $s;
-}
+
 .menuBtn{
   display: none;
 }

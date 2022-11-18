@@ -8,6 +8,7 @@ import Link from "next/link";
 import Image from "next/image";
 import {routesPage} from "../../routes/routes";
 import {useRouter} from "next/router";
+import Logo from "../logo/logo";
 
 const state = [
     {id: '1', img: img1, name: "vyhlopnaya-sistema", title: 'Выхлопная система', price: 'от 4 800'},
@@ -27,19 +28,9 @@ const Footer = () => {
             <div className="container">
                 <div className={cls.inner}>
                     <div className={cls.box}>
-                        {
-                            router.route === '/'
-                                ?
-                                <span className={cls.logo}>
-                            КЛЮЧ-АВТО
-                        </span>
-                                :
-                                <Link className={cls.logo} href='/'>
-                                    КЛЮЧ-АВТО
-                                </Link>
-                        }
+                        <Logo/>
 
-                        <Phone/>
+                        <Phone type="footer"/>
                         <Modal textBtn="Записаться на ТО">
                             <Form/>
                         </Modal>

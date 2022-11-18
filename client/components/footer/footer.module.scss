@@ -23,6 +23,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 24px;
 }
 
@@ -53,9 +54,7 @@
     align-items: center;
     text-align: center;
   }
-  .box {
-    align-items: center;
-  }
+
   .list{
     column-count: unset;
   }

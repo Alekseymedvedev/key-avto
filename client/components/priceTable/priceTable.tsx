@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {FC} from 'react';
 import cls from './priceTable.module.scss'
 import Modal from "../modal/modal";
 import Form from "../form/form";
@@ -11,13 +11,15 @@ const state = [
     {id: 3, img: img, name: 'Масло в двигателе - замена', price: '500', time: 30},
     {id: 4, img: img, name: 'Масло в двигателе - замена', price: '500', time: 30},
 ]
+interface T{
+    heading: string
+}
 
-
-const PriceTable = () => {
+const PriceTable:FC<T> = ({heading}) => {
     return (
         <section className="_vrm">
             <div className="container">
-                <h2>ТЕХНИЧЕСКОЕ ОБСЛУЖИВАНИЕ</h2>
+                <h2>{heading}</h2>
                 <div className={cls.tableContainer}>
                     <table className={cls.table}>
                         <thead>
@@ -35,7 +37,7 @@ const PriceTable = () => {
                                     <td className={cls.name}>
                                         <Image
                                             width={100}
-                                            height={100}
+                                            height={80}
                                             src={item.img}
                                             alt={item.name}
                                             placeholder="blur"

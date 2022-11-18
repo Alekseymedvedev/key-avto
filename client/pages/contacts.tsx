@@ -1,16 +1,26 @@
 import React, {FC} from 'react';
 import MainLayot from "../layot/mainLayot";
-import ContactsPage from "../screens/contactsPage/contactsPage";
+import Address from "../components/address/address";
+import Phone from "../components/phone/phone";
+import WorkTime from "../components/workTime/workTime";
+import MapSection from "../components/mapSection/mapSection";
 
-interface T {
-    aaa?: any
-}
 
-const Contacts: FC<T> = ({aaa}) => {
+const Contacts = () => {
     return (
 
-        <MainLayot title="Главная">
-            <ContactsPage/>
+        <MainLayot title="Контакты">
+            <section className="container">
+                <div className="grid">
+                    <div className="flex">
+                        <h1>Контакты</h1>
+                        <Address heading="Наш адрес"/>
+                        <Phone heading="Наш телефон"/>
+                        <WorkTime heading={true}/>
+                    </div>
+                    <MapSection/>
+                </div>
+            </section>
         </MainLayot>
     );
 };

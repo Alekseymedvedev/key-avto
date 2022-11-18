@@ -1,6 +1,12 @@
 @import "styles/colors";
 
-.phone {
+.heading{
+  margin-bottom: 16px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.inner {
   display: flex;
   align-items: center;
   gap: 8px;
