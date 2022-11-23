@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="верстка, адаптив">
-      <change afterPath="$PROJECT_DIR$/client/components/UI/input/inputMask.tsx" afterDir="false" />
+    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="inputMask">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/UI/inputMask/inputMask.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/banner/banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/banner/banner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/brandList/brandList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/brandList/brandList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/form/form.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/form/form.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/form/form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/form/form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/header/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/header/header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/mapSection/mapSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/mapSection/mapSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/modal/modal.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/modal/modal.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/navBar/navBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/navBar/navBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/layot/mainLayot.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/layout/mainLayout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/car-brand/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/car-brand/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/car-brand/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/car-brand/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/pages/categories/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/categories/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/categories/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/categories/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/styles/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/styles/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/styles/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/file/file.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/file/file.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/works/works.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/works/works.controller.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,14 +40,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/aleks/Desktop/web/react_prodject/key-avto/server",
+    "last_opened_file_path": "C:/Users/aleks/Desktop/web/react_prodject/key-avto/server/src/car-brand-article",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\aleks\\Desktop\\web\\react_prodject\\key-avto\\server\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\aleks\\Desktop\\web\\react_prodject\\key-avto\\client\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\server\src\car-brand-article" />
+      <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\server\src\car-brand" />
       <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -90,7 +77,14 @@
       <workItem from="1668701371713" duration="4846000" />
       <workItem from="1668750636507" duration="12684000" />
       <workItem from="1668769962577" duration="8172000" />
-      <workItem from="1668780674078" duration="6194000" />
+      <workItem from="1668780674078" duration="6581000" />
+      <workItem from="1668800610657" duration="109000" />
+      <workItem from="1668803367920" duration="905000" />
+      <workItem from="1668841451724" duration="2977000" />
+      <workItem from="1669027311947" duration="2936000" />
+      <workItem from="1669122401790" duration="1174000" />
+      <workItem from="1669187650534" duration="1756000" />
+      <workItem from="1669205452658" duration="6374000" />
     </task>
     <task id="LOCAL-00001" summary="создание клиента">
       <created>1668504706162</created>
@@ -155,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668766220850</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="inputMask">
+      <created>1668792813761</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668792813761</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +179,7 @@
     <MESSAGE value="добавление файлов для категорий" />
     <MESSAGE value="добавление карты" />
     <MESSAGE value="верстка, адаптив" />
-    <option name="LAST_COMMIT_MESSAGE" value="верстка, адаптив" />
+    <MESSAGE value="inputMask" />
+    <option name="LAST_COMMIT_MESSAGE" value="inputMask" />
   </component>
 </project>

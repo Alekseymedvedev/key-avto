@@ -8,7 +8,6 @@ import {useRouter} from "next/router";
 
 const Category = () => {
     const route= useRouter()
-    console.log(route)
     return (
         <MainLayout title="Category">
             <section className="categorySection _vrm">
@@ -25,7 +24,7 @@ const Category = () => {
                         </div>
                         <div className="flex-c">
                             <p>
-                                Сотрудники автосервиса "КДЮЧ-АВТО" уже более 10 лет работают в сфере ремонта и
+                                Сотрудники автосервиса "КЛЮЧ-АВТО" уже более 10 лет работают в сфере ремонта и
                                 технического
                                 обслуживания автомобилей различных марок и моделей.
                             </p>

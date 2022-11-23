@@ -8,7 +8,8 @@ import * as uuid from 'uuid'
 export class FileService {
     async createFile(file): Promise<string> {
         try {
-            const fileName = uuid.v4() + '.png';
+            const fileType = file.originalname.split('.').pop()
+            const fileName = uuid.v4() +'.'+ fileType;
             const filePath = path.resolve(__dirname, '..', 'static')
             if (!fs.existsSync(filePath)) {
                 fs.mkdirSync(filePath, {recursive: true})
