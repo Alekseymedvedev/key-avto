@@ -15,27 +15,24 @@ import img9 from "../../images/brand/nissan.png";
 import cls from './brandList.module.scss'
 import Image from "next/image";
 import Link from "next/link";
+import {FC} from "react";
+import {brandType} from "../../types/categoryType";
 
 
 const state = [
-    {id: '1', img: img1, name: 'toyota'},
-    {id: '2', img: img2, name: 'opel'},
-    {id: '3', img: img3, name: 'chevrolet'},
-    {id: '4', img: img4, name: 'ford'},
-    {id: '5', img: img5, name: 'kia'},
-    {id: '6', img: img6, name: 'hyundai'},
-    {id: '7', img: img7, name: 'mazda'},
-    {id: '8', img: img8, name: 'mitsubishi'},
-    {id: '9', img: img9, name: 'nissan'},
+    {id: '1', img: img1, name: 'Призрачный дракон',value:'11,50'},
 ]
-const BrandList = () => {
+
+interface T{
+    brand?:brandType[]
+}
+const BrandList:FC<T> = ({brand}) => {
     return (
         <section className={cls.brandList + " _vrm"}>
             <div className="container">
                 <h2>Мы обслуживаем</h2>
                 <Swiper
                     className={cls.sliderContainer}
-
                     slidesPerView={3}
                     breakpoints={{
                         560: {
@@ -55,26 +52,20 @@ const BrandList = () => {
                     modules={[Pagination]}
                 >
                     {
-                        state.map(item =>
+                        brand &&  brand.map(item =>
                             <SwiperSlide key={item.id} className={cls.item}>
                                 <Link href={`/car-brand/` + item.name} className={cls.link}>
-                                    <Image src={item.img} alt={item.name}/>
+                                    <Image
+                                        width={70}
+                                        height={70}
+                                        src={'http://localhost:5000/'+item.image}
+                                        alt={item.name}
+                                    />
                                 </Link>
                             </SwiperSlide>
                         )
                     }
                 </Swiper>
-                {/*<ul className={cls.list}>*/}
-                {/*    {*/}
-                {/*        state.map(item=>*/}
-                {/*            <li key={item.id} className={cls.item}>*/}
-                {/*                <Link  href={`/brand/`+item.id}>*/}
-                {/*                    <Image src={item.img} alt={item.name}/>*/}
-                {/*                </Link>*/}
-                {/*            </li>*/}
-                {/*        )*/}
-                {/*    }*/}
-                {/*</ul>*/}
             </div>
         </section>
     );

@@ -8,7 +8,7 @@ export class WorksController {
 
     constructor(private WorksService: WorksService) {}
 
-    @Post('works')
+    @Post()
     @UseInterceptors(FileInterceptor('image'))
     createPost(@Body() dto: CreateWorksDto,
                @UploadedFile() image) {

@@ -4,6 +4,7 @@ import Modal from "../modal/modal";
 import Form from "../form/form";
 import img from "../../images/banner1.png"
 import Image from "next/image";
+import {worksCategoriesType} from "../../types/categoryType";
 
 const state = [
     {id: 1, img: img, name: 'Масло в двигателе - замена', price: '500', time: 30},
@@ -13,9 +14,10 @@ const state = [
 ]
 interface T{
     heading: string
+    worksCategories?: worksCategoriesType[]
 }
 
-const PriceTable:FC<T> = ({heading}) => {
+const PriceTable:FC<T> = ({heading,worksCategories}) => {
     return (
         <section className="_vrm">
             <div className="container">
@@ -32,15 +34,16 @@ const PriceTable:FC<T> = ({heading}) => {
                         </thead>
                         <tbody>
                         {
-                            state.map(item=>
+                            worksCategories ?
+                                worksCategories.map(item=>
                                 <tr key={item.id}>
                                     <td className={cls.name}>
                                         <Image
-                                            width={100}
+                                            width={120}
                                             height={80}
-                                            src={item.img}
+                                            src={'http://localhost:5000/'+item.image}
                                             alt={item.name}
-                                            placeholder="blur"
+                                            // placeholder="blur"
                                         />
                                         {item.name}
                                     </td>
@@ -52,7 +55,8 @@ const PriceTable:FC<T> = ({heading}) => {
                                         </Modal>
                                     </td>
                                 </tr>
-                            )
+                            ):
+                                ''
                         }
                         </tbody>
                     </table>

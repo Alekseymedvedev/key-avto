@@ -14,4 +14,5 @@ import {FileModule} from "../file/file.module";
       FileModule
       ]
 })
+
 export class CategoriesModule {}

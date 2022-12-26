@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="таблицы и связи для статей">
+    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="getStaticProps на главной">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/brandList/brandList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/brandList/brandList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/categories/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/categories/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/priceTable/priceTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/priceTable/priceTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/next.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/car-brand/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/car-brand/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/categories/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/categories/[id].tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/categories/categories.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/categories/categories.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/styles/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/styles/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/types/categoryType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/types/categoryType.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/categories/categories.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/categories/categories.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/works/works.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/works/works.controller.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +51,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/aleks/Desktop/web/react_prodject/key-avto/server/src/car-brand-article&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\aleks\\Desktop\\web\\react_prodject\\key-avto\\client\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\aleks\\Desktop\\web\\react_prodject\\key-avto\\server\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -88,7 +95,15 @@
       <workItem from="1669187650534" duration="1756000" />
       <workItem from="1669205452658" duration="6897000" />
       <workItem from="1669533268452" duration="375000" />
-      <workItem from="1669574792693" duration="9436000" />
+      <workItem from="1669574792693" duration="10997000" />
+      <workItem from="1671697102433" duration="201000" />
+      <workItem from="1671700485651" duration="10196000" />
+      <workItem from="1671715584765" duration="2213000" />
+      <workItem from="1671729976615" duration="2302000" />
+      <workItem from="1671994003675" duration="3339000" />
+      <workItem from="1672037712124" duration="6655000" />
+      <workItem from="1672044754429" duration="462000" />
+      <workItem from="1672049324706" duration="3694000" />
     </task>
     <task id="LOCAL-00001" summary="создание клиента">
       <created>1668504706162</created>
@@ -167,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669214871516</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="getStaticProps на главной">
+      <created>1669584395755</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669584395755</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +214,7 @@
     <MESSAGE value="верстка, адаптив" />
     <MESSAGE value="inputMask" />
     <MESSAGE value="таблицы и связи для статей" />
-    <option name="LAST_COMMIT_MESSAGE" value="таблицы и связи для статей" />
+    <MESSAGE value="getStaticProps на главной" />
+    <option name="LAST_COMMIT_MESSAGE" value="getStaticProps на главной" />
   </component>
 </project>

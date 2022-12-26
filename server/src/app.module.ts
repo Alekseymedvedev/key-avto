@@ -10,19 +10,24 @@ import { CarBrandModule } from './car-brand/car-brand.module';
 import { CarBrandArticleModule } from './car-brand-article/car-brand-article.module';
 import {CarBrand} from "./car-brand/car-brand.model";
 import {CarBrandArticle} from "./car-brand-article/car-brand-article.model";
+import {ServeStaticModule} from "@nestjs/serve-static";
+import * as path from "path";
 
 @Module({
   imports: [
       ConfigModule.forRoot({
-        envFilePath:'.env'
+        envFilePath:'.env.local'
       }),
+    ServeStaticModule.forRoot({
+      rootPath: path.resolve(__dirname, 'static'),
+    }),
     SequelizeModule.forRoot({
       dialect: 'mysql',
-      host: process.env.HOST,
+      host: 'localhost',
       port: 3306,
-      username: process.env.LOGIN,
+      username: 'root',
       password: '',
-      database: process.env.DB,
+      database: 'key-avto',
       models: [Category,WorkCategory,CarBrand,CarBrandArticle],
       autoLoadModels:true
     }),

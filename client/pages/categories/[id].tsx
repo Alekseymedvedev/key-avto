@@ -2,24 +2,41 @@ import PriceTable from "../../components/priceTable/priceTable";
 import MainLayout from "../../layout/mainLayout";
 import Image from "next/image";
 import img from "../../images/banner1.png";
-import React from "react";
+import React, {FC} from "react";
 import {useRouter} from "next/router";
 
 
-const Category = () => {
+export async function getServerSideProps(context:any) {
+    console.log(context)
+    const id = context.query.id
+    const res = await fetch(`http://localhost:5000/categories/${id}`)
+    const data = await res.json()
+    return {
+        props: {category:data}, // will be passed to the page component as props
+    }
+}
+
+// worksCategories
+
+interface T{
+    category?:any
+
+}
+const Category:FC<T> = ({category}) => {
+    console.log(category)
     const route= useRouter()
     return (
         <MainLayout title="Category">
             <section className="categorySection _vrm">
                 <div className="container">
-                    <h1>{route.query.id}</h1>
+                    <h1>{category.title}</h1>
                     <div className="grid">
                         <div className="categoyImg">
                             <Image
                                 fill
-                                src={img}
+                                src={'http://localhost:5000/'+category.image}
                                 alt="banner"
-                                placeholder="blur"
+                                // placeholder="blur"
                             />
                         </div>
                         <div className="flex-c">
@@ -39,7 +56,7 @@ const Category = () => {
                     </div>
                 </div>
             </section>
-            <PriceTable heading="Наши работы"/>
+            <PriceTable worksCategories={category.worksCategories} heading="Наши работы"/>
         </MainLayout>
     );
 };
