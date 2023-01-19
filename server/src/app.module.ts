@@ -22,12 +22,12 @@ import * as path from "path";
       rootPath: path.resolve(__dirname, 'static'),
     }),
     SequelizeModule.forRoot({
-      dialect: 'mysql',
+      dialect: 'postgres',
       host: 'localhost',
-      port: 3306,
-      username: 'root',
+      port: 5432,
+      username: 'postgres',
       password: 'x29021956X',
-      database: 'cd68874_keyavto',
+      database: 'test',
       models: [Category,WorkCategory,CarBrand,CarBrandArticle],
       autoLoadModels:true
     }),
