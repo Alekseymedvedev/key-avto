@@ -17,11 +17,9 @@ import Image from "next/image";
 import Link from "next/link";
 import {FC} from "react";
 import {brandType} from "../../types/categoryType";
+import {BASE_URL} from "../../API/API";
 
 
-const state = [
-    {id: '1', img: img1, name: 'Призрачный дракон',value:'11,50'},
-]
 
 interface T{
     brand?:brandType[]
@@ -53,13 +51,13 @@ const BrandList:FC<T> = ({brand}) => {
                 >
                     {
                         brand &&  brand.map(item =>
-                            <SwiperSlide key={item.id} className={cls.item}>
-                                <Link href={`/car-brand/` + item.name} className={cls.link}>
+                            <SwiperSlide key={item?.id} className={cls.item}>
+                                <Link href={'car-brand/' + item?.name} className={cls.link}>
                                     <Image
                                         width={70}
                                         height={70}
-                                        src={'http://localhost:5000/'+item.image}
-                                        alt={item.name}
+                                        src={BASE_URL+item?.image}
+                                        alt={item?.name}
                                     />
                                 </Link>
                             </SwiperSlide>

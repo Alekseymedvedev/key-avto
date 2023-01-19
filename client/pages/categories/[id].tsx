@@ -1,40 +1,36 @@
 import PriceTable from "../../components/priceTable/priceTable";
 import MainLayout from "../../layout/mainLayout";
 import Image from "next/image";
-import img from "../../images/banner1.png";
 import React, {FC} from "react";
 import {useRouter} from "next/router";
+import {BASE_URL} from "../../API/API";
 
 
-export async function getServerSideProps(context:any) {
-    console.log(context)
-    const id = context.query.id
-    const res = await fetch(`http://localhost:5000/categories/${id}`)
-    const data = await res.json()
-    return {
-        props: {category:data}, // will be passed to the page component as props
-    }
-}
+// export async function getServerSideProps(context:any) {
+//     const id = context.query.id
+//     const res = await fetch(BASE_URL+'categories/'+id)
+//     const data = await res.json()
+//     return {
+//         props: {category:data},
+//     }
+// }
 
-// worksCategories
 
 interface T{
     category?:any
 
 }
 const Category:FC<T> = ({category}) => {
-    console.log(category)
-    const route= useRouter()
     return (
-        <MainLayout title="Category">
+        <MainLayout title={category?.title}>
             <section className="categorySection _vrm">
                 <div className="container">
-                    <h1>{category.title}</h1>
+                    <h1>{category?.title}</h1>
                     <div className="grid">
                         <div className="categoyImg">
                             <Image
                                 fill
-                                src={'http://localhost:5000/'+category.image}
+                                src={BASE_URL+category?.image}
                                 alt="banner"
                                 // placeholder="blur"
                             />
@@ -56,7 +52,7 @@ const Category:FC<T> = ({category}) => {
                     </div>
                 </div>
             </section>
-            <PriceTable worksCategories={category.worksCategories} heading="Наши работы"/>
+            <PriceTable worksCategories={category?.worksCategories} heading="Наши работы"/>
         </MainLayout>
     );
 };

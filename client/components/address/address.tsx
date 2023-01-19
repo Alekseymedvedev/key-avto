@@ -14,7 +14,7 @@ const Address:FC<T> = ({heading}) => {
             }
 
             <a className={cls.address}
-               target="_blank"
+
                href="https://yandex.ru/maps/47/nizhny-novgorod/house/ulitsa_shcherbakova_31k3/YEoYfgBoQEcHQFtsfX90cn9rYQ==/?ll=43.885156%2C56.352258&z=15.85"
             >
                 <svg id="icon-location" viewBox="0 0 32 32" style={{width: 30, height: 30}}>

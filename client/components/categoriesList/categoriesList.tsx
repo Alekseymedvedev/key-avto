@@ -4,6 +4,7 @@ import Image from "next/image";
 import cls from "./categoriesList.module.scss";
 import Link from "next/link";
 import {categoryType} from "../../types/categoryType";
+import {BASE_URL} from "../../API/API";
 
 
 
@@ -11,7 +12,6 @@ interface T{
     categories?:categoryType[]
 }
 const CategoriesList:FC<T> = ({categories}) => {
-    // const url ='http://localhost:5000/'
 
     return (
         <section className="_vrm">
@@ -28,7 +28,7 @@ const CategoriesList:FC<T> = ({categories}) => {
                                         <div className={cls.title}>{item.title}</div>
                                     </div>
                                     <div className={cls.img}>
-                                        <Image width={135} height={100} src={'http://localhost:5000/' +item.image } alt={''} />
+                                        <Image width={135} height={100} src={BASE_URL +item.image } alt={''} />
                                     </div>
                                 </Link>
                             </li>

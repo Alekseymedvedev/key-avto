@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import Category from "../category/category";
+// import Category from "../category/category";
 import cls from './categgoryPreview.module.scss'
 import img1 from '../../images/banner1.png'
 import Image from "next/image";
@@ -21,7 +21,7 @@ const CateggoryPreview:FC<T> = ({name}) => {
 
         <section className="_vrm">
             <div className={cls.header}>
-                <Image src={img1}/>
+                <Image src={img1} alt=""/>
                 <div className={cls.text}>
                     <div>
                         <p>
@@ -36,23 +36,23 @@ const CateggoryPreview:FC<T> = ({name}) => {
                 </div>
             </div>
             <h2>Наши цены</h2>
-            <table className={cls.table}>
-                <thead>
-                <tr>
-                    <th>Название работы</th>
-                    <th>Требует времени</th>
-                    <th>Цена руб.</th>
-                    <th>Время</th>
-                </tr>
-                </thead>
-                <tbody>
-                {
-                    state.map(item =>
-                        <Category key={item.id} props={item}/>
-                    )
-                }
-                </tbody>
-            </table>
+            {/*<table className={cls.table}>*/}
+            {/*    <thead>*/}
+            {/*    <tr>*/}
+            {/*        <th>Название работы</th>*/}
+            {/*        <th>Требует времени</th>*/}
+            {/*        <th>Цена руб.</th>*/}
+            {/*        <th>Время</th>*/}
+            {/*    </tr>*/}
+            {/*    </thead>*/}
+            {/*    <tbody>*/}
+            {/*    {*/}
+            {/*        state.map(item =>*/}
+            {/*            <Category key={item.id} props={item}/>*/}
+            {/*        )*/}
+            {/*    }*/}
+            {/*    </tbody>*/}
+            {/*</table>*/}
         </section>
     );
 };

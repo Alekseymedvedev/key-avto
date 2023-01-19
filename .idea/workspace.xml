@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="getStaticProps на главной">
+    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="данные на динамических страницах">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/address/address.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/address/address.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/brandArticle/brandArticle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/brandArticle/brandArticle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/components/brandList/brandList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/brandList/brandList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/categgoryPreview/categgoryPreview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/categgoryPreview/categgoryPreview.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/components/priceTable/priceTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/priceTable/priceTable.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/next.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/social/social.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/social/social.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/car-brand/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/car-brand/[id].tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/pages/car-brand/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/car-brand/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/pages/categories/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/categories/[id].tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/styles/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/styles/reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/types/categoryType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/types/categoryType.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/categories/categories.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/categories/categories.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/works/works.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/works/works.controller.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +46,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/aleks/Desktop/web/react_prodject/key-avto/server/src/car-brand-article&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aleks/Desktop/web/react_prodject/key-avto&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\aleks\\Desktop\\web\\react_prodject\\key-avto\\server\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\aleks\\Desktop\\web\\react_prodject\\key-avto\\client\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -103,7 +100,19 @@
       <workItem from="1671994003675" duration="3339000" />
       <workItem from="1672037712124" duration="6655000" />
       <workItem from="1672044754429" duration="462000" />
-      <workItem from="1672049324706" duration="3694000" />
+      <workItem from="1672049324706" duration="4052000" />
+      <workItem from="1673429520639" duration="3596000" />
+      <workItem from="1673449673951" duration="31000" />
+      <workItem from="1673529565480" duration="714000" />
+      <workItem from="1673608481915" duration="1820000" />
+      <workItem from="1673610475396" duration="4346000" />
+      <workItem from="1673620070820" duration="2423000" />
+      <workItem from="1673866060110" duration="2482000" />
+      <workItem from="1673947029514" duration="3562000" />
+      <workItem from="1673961926007" duration="597000" />
+      <workItem from="1673971599346" duration="759000" />
+      <workItem from="1674074634319" duration="1127000" />
+      <workItem from="1674112273403" duration="353000" />
     </task>
     <task id="LOCAL-00001" summary="создание клиента">
       <created>1668504706162</created>
@@ -189,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669584395755</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="данные на динамических страницах">
+      <created>1672069171780</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1672069171781</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +231,18 @@
     <MESSAGE value="inputMask" />
     <MESSAGE value="таблицы и связи для статей" />
     <MESSAGE value="getStaticProps на главной" />
-    <option name="LAST_COMMIT_MESSAGE" value="getStaticProps на главной" />
+    <MESSAGE value="данные на динамических страницах" />
+    <option name="LAST_COMMIT_MESSAGE" value="данные на динамических страницах" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/pages/car-brand/[id].tsx</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

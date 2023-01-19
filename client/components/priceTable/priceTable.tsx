@@ -2,16 +2,11 @@ import React, {FC} from 'react';
 import cls from './priceTable.module.scss'
 import Modal from "../modal/modal";
 import Form from "../form/form";
-import img from "../../images/banner1.png"
 import Image from "next/image";
 import {worksCategoriesType} from "../../types/categoryType";
+import {BASE_URL} from "../../API/API";
 
-const state = [
-    {id: 1, img: img, name: 'Масло в двигателе - замена', price: '500', time: 30},
-    {id: 2, img: img, name: 'Масло в двигателе - замена', price: '500', time: 30},
-    {id: 3, img: img, name: 'Масло в двигателе - замена', price: '500', time: 30},
-    {id: 4, img: img, name: 'Масло в двигателе - замена', price: '500', time: 30},
-]
+
 interface T{
     heading: string
     worksCategories?: worksCategoriesType[]
@@ -41,14 +36,15 @@ const PriceTable:FC<T> = ({heading,worksCategories}) => {
                                         <Image
                                             width={120}
                                             height={80}
-                                            src={'http://localhost:5000/'+item.image}
+                                            src={BASE_URL+item.image}
                                             alt={item.name}
-                                            // placeholder="blur"
+                                            placeholder="blur"
+                                            blurDataURL={BASE_URL+item.image}
                                         />
                                         {item.name}
                                     </td>
-                                    <td>{item.price}</td>
-                                    <td>{item.time}</td>
+                                    <td>от {item.price}</td>
+                                    <td>от {item.time}</td>
                                     <td>
                                         <Modal textBtn="Записаться на ТО">
                                             <Form/>
