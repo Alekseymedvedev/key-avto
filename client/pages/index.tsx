@@ -7,25 +7,25 @@ import PriceTable from "../components/priceTable/priceTable";
 import MapSection from "../components/mapSection/mapSection";
 import {BASE_URL} from "../API/API";
 
-// export async function getStaticProps() {
-//
-//     const res = await fetch('http://cd68874.tw1.ru/categories')
-//         const data = await res?.json()
-//
-//     const res2 = await fetch(BASE_URL+'car-brand')
-//     const data2 = await res2.json()
-//
-//     const res3 = await fetch(BASE_URL+'categories/tekhnicheskoe-obsluzhivanie')
-//     const data3 = await res3.json()
-//     if (!res || !data2 || !data3) {
-//         return {
-//             notFound: true
-//         }
-//     }
-//     return {
-//         props: {categories: data, category: data3, brand: data2},
-//     }
-// }
+export async function getStaticProps() {
+
+    const res = await fetch(BASE_URL+'categories')
+        const data = await res?.json()
+
+    const res2 = await fetch(BASE_URL+'car-brand')
+    const data2 = await res2.json()
+
+    const res3 = await fetch(BASE_URL+'categories/tekhnicheskoe-obsluzhivanie')
+    const data3 = await res3?.json()
+    if (!res || !data2 || !data3) {
+        return {
+            notFound: true
+        }
+    }
+    return {
+        props: {categories: data, category: data3, brand: data2},
+    }
+}
 
 interface T {
     categories?: any

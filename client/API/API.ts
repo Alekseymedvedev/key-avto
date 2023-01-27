@@ -1,1 +1,1 @@
-export  const BASE_URL= 'http://cd68874.tw1.ru/'
+export  const BASE_URL= 'http://localhost:5000/'
