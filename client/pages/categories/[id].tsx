@@ -3,17 +3,17 @@ import MainLayout from "../../layout/mainLayout";
 import Image from "next/image";
 import React, {FC} from "react";
 import {useRouter} from "next/router";
-import {BASE_URL} from "../../API/API";
+import {BASE_URL, DB_URL} from "../../API/API";
 
 
-// export async function getServerSideProps(context:any) {
-//     const id = context.query.id
-//     const res = await fetch(BASE_URL+'categories/'+id)
-//     const data = await res.json()
-//     return {
-//         props: {category:data},
-//     }
-// }
+export async function getServerSideProps(context:any) {
+    const id = context.query.id
+    const res = await fetch(DB_URL+'categories/'+id)
+    const data = await res.json()
+    return {
+        props: {category:data},
+    }
+}
 
 
 interface T{

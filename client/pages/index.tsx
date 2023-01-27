@@ -5,17 +5,17 @@ import CategoriesList from "../components/categoriesList/categoriesList";
 import BrandList from "../components/brandList/brandList";
 import PriceTable from "../components/priceTable/priceTable";
 import MapSection from "../components/mapSection/mapSection";
-import {BASE_URL} from "../API/API";
+import {BASE_URL, DB_URL} from "../API/API";
 
 export async function getStaticProps() {
 
-    const res = await fetch(BASE_URL+'categories')
+    const res = await fetch(DB_URL+'categories')
         const data = await res?.json()
 
-    const res2 = await fetch(BASE_URL+'car-brand')
+    const res2 = await fetch(DB_URL+'car-brand')
     const data2 = await res2.json()
 
-    const res3 = await fetch(BASE_URL+'categories/tekhnicheskoe-obsluzhivanie')
+    const res3 = await fetch(DB_URL+'categories/tekhnicheskoe-obsluzhivanie')
     const data3 = await res3?.json()
     if (!res || !data2 || !data3) {
         return {
@@ -39,7 +39,6 @@ const Home: FC<T> = ({categories, brand, category}) => {
     useEffect(() => {
         setPriceTableState(category?.worksCategories)
     }, [])
-    console.log(priceTableState)
     return (
         <MainLayout title="Главная страница">
             <Banner/>

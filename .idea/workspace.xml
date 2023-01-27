@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="изменил на бд mysql" />
+    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="изменил на бд mysql">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/API/API.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/API/API.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/categories/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/categories/[id].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.module.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +50,8 @@
       <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\server" />
+      <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto" />
       <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\client\components\modal" />
     </key>
   </component>
@@ -100,7 +108,7 @@
       <workItem from="1674112273403" duration="7244000" />
       <workItem from="1674134416968" duration="1737000" />
       <workItem from="1674312155136" duration="1061000" />
-      <workItem from="1674823781429" duration="1496000" />
+      <workItem from="1674823781429" duration="4022000" />
     </task>
     <task id="LOCAL-00001" summary="создание клиента">
       <created>1668504706162</created>
@@ -228,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674828047677</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="изменил на бд mysql">
+      <created>1674828355370</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1674828355370</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

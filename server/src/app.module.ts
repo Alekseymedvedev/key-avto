@@ -27,7 +27,7 @@ import * as path from "path";
       port: 3306,
       username: 'root',
       password: '',
-      database: 'key_avto',
+      database: 'key-avto',
       models: [Category,WorkCategory,CarBrand,CarBrandArticle],
       autoLoadModels:true
     }),
