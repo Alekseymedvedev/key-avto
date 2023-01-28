@@ -19,7 +19,7 @@ const CategoriesList:FC<T> = ({categories}) => {
                 <h2>Наши услуги </h2>
                 <ul className={cls.list}>
                     {
-                        categories && categories.map(item =>
+                        categories?.length && categories.map(item =>
                             <li key={item.id}>
 
 

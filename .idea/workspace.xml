@@ -4,8 +4,20 @@
     <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="изменил на бд mysql">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/API/API.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/API/API.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/banner/banner.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/banner/banner.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/banner/banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/banner/banner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/footer/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/social/social.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/social/social.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/layout/mainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/layout/mainLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/car-brand/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/car-brand/[id].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/car-brand/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/car-brand/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/pages/categories/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/categories/[id].tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/styles/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,12 +51,14 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/aleks/Desktop/web/react_prodject/key-avto",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\aleks\\Desktop\\web\\react_prodject\\key-avto\\client\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\aleks\\Desktop\\web\\react_prodject\\key-avto\\server\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\client\pages" />
+      <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\server\dist\static" />
       <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\server\src\car-brand-article" />
       <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\server\src\car-brand" />
       <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\server" />
@@ -108,7 +122,11 @@
       <workItem from="1674112273403" duration="7244000" />
       <workItem from="1674134416968" duration="1737000" />
       <workItem from="1674312155136" duration="1061000" />
-      <workItem from="1674823781429" duration="4022000" />
+      <workItem from="1674823781429" duration="7108000" />
+      <workItem from="1674897826126" duration="893000" />
+      <workItem from="1674901054770" duration="6393000" />
+      <workItem from="1674923639858" duration="3379000" />
+      <workItem from="1674934269971" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="создание клиента">
       <created>1668504706162</created>
@@ -243,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674828355370</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="изменил на бд mysql">
+      <created>1674830842022</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1674830842022</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +305,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/client/pages/car-brand/[id].tsx</url>
-          <line>32</line>
+          <line>37</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

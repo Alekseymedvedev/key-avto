@@ -24,8 +24,7 @@ interface T{
 const Index:FC<T> = ({brand}) => {
 
     return (
-        <MainLayout title="Обслуживаемые бренды">
-
+        <MainLayout title={brand}>
             <BrandList brand={brand}/>
         </MainLayout>
     );

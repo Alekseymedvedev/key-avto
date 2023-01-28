@@ -40,7 +40,9 @@ const Home: FC<T> = ({categories, brand, category}) => {
         setPriceTableState(category?.worksCategories)
     }, [])
     return (
-        <MainLayout title="Главная страница">
+        <MainLayout title="Ключ-авто - ремонт и обслуживание автомобилей"
+                    content=""
+        >
             <Banner/>
             <CategoriesList categories={categories}/>
             <BrandList brand={brand}/>

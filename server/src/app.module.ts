@@ -11,6 +11,7 @@ import { CarBrandArticleModule } from './car-brand-article/car-brand-article.mod
 import {CarBrand} from "./car-brand/car-brand.model";
 import {CarBrandArticle} from "./car-brand-article/car-brand-article.model";
 import {ServeStaticModule} from "@nestjs/serve-static";
+import { SendMailerModule } from './send-mailer/send-mailer.module';
 import * as path from "path";
 
 @Module({
@@ -36,6 +37,7 @@ import * as path from "path";
     FileModule,
     CarBrandModule,
     CarBrandArticleModule,
+    SendMailerModule,
   ],
   controllers: [],
   providers: [],

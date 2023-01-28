@@ -54,7 +54,7 @@ const Footer = () => {
                         {
                             state.map(item =>
                                 <li key={item.id}>
-                                    <Link className={cls.link} href={`/services/` + item.name}>
+                                    <Link className={cls.link} href={`/categories/` + item.name}>
                                         {item.title}
                                     </Link>
                                 </li>

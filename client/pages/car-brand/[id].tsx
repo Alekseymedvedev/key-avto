@@ -1,16 +1,21 @@
 import MainLayout from "../../layout/mainLayout";
-import React from "react";
+import React, {useEffect} from "react";
 import Image from "next/image";
 import img from "../../images/banner1.png";
+import {useRouter} from "next/router";
 
 
 
 const carBrand = () => {
+    const router = useRouter()
+    const brand = router.query.id
+    const aaa:any =brand
+
     return (
-        <MainLayout title="О марке автомобиля">
+        <MainLayout title={`О марке автомобиля ${brand}`}>
             <section className="_vrm">
                 <div className="container">
-                    <h1>Ремонт OPEL</h1>
+                    <h1>Ремонт <span>{brand}</span></h1>
                     <div className="grid _vrm">
                         <div className="carBrandImg">
                             <Image

@@ -15,10 +15,8 @@ export async function getServerSideProps(context:any) {
     }
 }
 
-
 interface T{
     category?:any
-
 }
 const Category:FC<T> = ({category}) => {
     return (
