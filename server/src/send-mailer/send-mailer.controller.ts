@@ -5,7 +5,7 @@ import {sendMailerService} from "./send-mailer.service";
 export class SendMailerController {
     constructor(private sendMailerService:sendMailerService) {}
     @Post()
-    declare(@Body(){phone:phone}) {
+    declare(@Body(){phone:phone}:any) {
         return this.sendMailerService.sendMEmail({phone:phone})
     }
 
