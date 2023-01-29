@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="доработки">
-      <change afterPath="$PROJECT_DIR$/server/src/send-mailer/send-mailer.controller.ts" afterDir="false" />
+    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="Почта, форма обратной связи">
+      <change afterPath="$PROJECT_DIR$/client/pages/_document.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/API/API.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/API/API.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/UI/input/inputMask.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/UI/input/inputMask.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/form/form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/form/form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/send-mailer/send-mailer.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/send-mailer/send-mailer.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/send-mailer/send-mailer.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/send-mailer/send-mailer.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +116,7 @@
       <workItem from="1674934269971" duration="4080000" />
       <workItem from="1674982917192" duration="5778000" />
       <workItem from="1674989910646" duration="735000" />
-      <workItem from="1675006407216" duration="2914000" />
+      <workItem from="1675006407216" duration="3606000" />
     </task>
     <task id="LOCAL-00001" summary="создание клиента">
       <created>1668504706162</created>
@@ -275,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674936953814</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Почта, форма обратной связи">
+      <created>1675009678290</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1675009678291</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +310,8 @@
     <MESSAGE value="изменил на бд postgres" />
     <MESSAGE value="изменил на бд mysql" />
     <MESSAGE value="доработки" />
-    <option name="LAST_COMMIT_MESSAGE" value="доработки" />
+    <MESSAGE value="Почта, форма обратной связи" />
+    <option name="LAST_COMMIT_MESSAGE" value="Почта, форма обратной связи" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
