@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="убрал useRouter car-brand" />
+    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -316,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675018569688</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="commit">
+      <created>1675018848083</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1675018848083</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,13 +352,13 @@
     <MESSAGE value="таблицы и связи для статей" />
     <MESSAGE value="getStaticProps на главной" />
     <MESSAGE value="данные на динамических страницах" />
-    <MESSAGE value="commit" />
     <MESSAGE value="изменил на бд postgres" />
     <MESSAGE value="изменил на бд mysql" />
     <MESSAGE value="доработки" />
     <MESSAGE value="Почта, форма обратной связи" />
     <MESSAGE value="убрал useRouter car-brand" />
-    <option name="LAST_COMMIT_MESSAGE" value="убрал useRouter car-brand" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

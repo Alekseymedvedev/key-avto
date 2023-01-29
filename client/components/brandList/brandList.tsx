@@ -50,7 +50,7 @@ const BrandList:FC<T> = ({brand}) => {
                     modules={[Pagination]}
                 >
                     {
-                        brand &&  brand.map(item =>
+                        brand?.length &&  brand.map(item =>
                             <SwiperSlide key={item?.id} className={cls.item}>
                                 <Link href={'car-brand/' + item?.name} className={cls.link}>
                                     <Image
