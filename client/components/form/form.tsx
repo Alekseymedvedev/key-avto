@@ -17,10 +17,10 @@ const Form = () => {
         <form className={cls.form}>
             <div className={cls.title}>Заполните форму</div>
             <Input value={value} onChange={setValue}/>
-                {/*<Button >*/}
-                {/*    Отправить заявку*/}
-                {/*</Button>*/}
-                <button onClick={(e)=>{sendEmail(e)}}>Отправить заявку</button>
+                <Button onClick={sendEmail}>
+                    Отправить заявку
+                </Button>
+                {/*<button onClick={(e)=>{sendEmail(e)}}>Отправить заявку</button>*/}
 
         </form>
     );

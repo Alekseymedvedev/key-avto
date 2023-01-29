@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="Почта, форма обратной связи">
-      <change beforePath="$PROJECT_DIR$/server/src/send-mailer/send-mailer.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/send-mailer/send-mailer.controller.ts" afterDir="false" />
+    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="убрал useRouter car-brand">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/UI/button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/UI/button/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/form/form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/form/form.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,17 +30,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/aleks/Desktop/web/react_prodject/key-avto",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\aleks\\Desktop\\web\\react_prodject\\key-avto\\server\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aleks/Desktop/web/react_prodject/key-avto&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\aleks\\Desktop\\web\\react_prodject\\key-avto\\server\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\client\pages" />
@@ -297,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675014397730</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="убрал useRouter car-brand">
+      <created>1675017956400</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1675017956400</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +338,8 @@
     <MESSAGE value="изменил на бд mysql" />
     <MESSAGE value="доработки" />
     <MESSAGE value="Почта, форма обратной связи" />
-    <option name="LAST_COMMIT_MESSAGE" value="Почта, форма обратной связи" />
+    <MESSAGE value="убрал useRouter car-brand" />
+    <option name="LAST_COMMIT_MESSAGE" value="убрал useRouter car-brand" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
