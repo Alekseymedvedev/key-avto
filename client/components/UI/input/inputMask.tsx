@@ -2,8 +2,13 @@ import {FC, useState} from "react";
 import cls from './input.module.scss'
 import InputMask from "react-input-mask";
 
-const Input = () => {
-    const [value,setValue]=useState('')
+interface T{
+    value:any;
+    onChange:any
+}
+
+const Input:FC<T> = ({value,onChange}) => {
+
     return (
         <label className={cls.label}>
             <span className={cls.text}>Телефон</span>
@@ -13,7 +18,7 @@ const Input = () => {
                 placeholder="+7 (___)___-__-__"
                 type="text"
                 value={value}
-                onChange={(e:any)=>{setValue(e.target.value)}}
+                onChange={(e:any)=>{onChange(e.target.value)}}
                 />
         </label>
     );
