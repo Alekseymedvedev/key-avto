@@ -7,8 +7,8 @@ import {useRouter} from "next/router";
 
 
 const carBrand = () => {
-    const router = useRouter()
-    const brand = router.query.id
+    // const router = useRouter()
+    const brand = 'router.query.id'
     const aaa:any =brand
 
     return (
