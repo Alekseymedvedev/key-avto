@@ -17,7 +17,7 @@ const Logo = () => {
                              width={270}
                              height={80}
                              src={logo}
-                             alt="banner"
+                             alt="logo"
                          />
                     </span>
                     :

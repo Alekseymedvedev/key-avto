@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="убрал useRouter car-brand">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/UI/button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/UI/button/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/form/form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/form/form.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="убрал useRouter car-brand" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -306,7 +302,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675017956400</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="убрал useRouter car-brand">
+      <created>1675018412253</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1675018412253</updated>
+    </task>
+    <task id="LOCAL-00029" summary="убрал useRouter car-brand">
+      <created>1675018569688</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1675018569688</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
