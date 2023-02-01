@@ -26,7 +26,7 @@ import * as path from "path";
       dialect: 'mysql',
       host: 'localhost',
       port: 3306,
-      username: 'root',
+      username: '',
       password: '',
       database: 'key_avto',
       models: [Category,WorkCategory,CarBrand,CarBrandArticle],
