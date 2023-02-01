@@ -17,7 +17,12 @@ const [visible,setVisible]=useState(false)
 
     return (
         <>
-            <div className="" onClick={() => setVisible(true)}>
+            <div className="" onClick={() => {
+                setVisible(true)
+                console.log(15245214)
+            }
+
+            }>
                 <Button>{textBtn}</Button>
             </div>
 
