@@ -13,8 +13,8 @@ import { SendMailerController } from './send-mailer.controller';
         host: 'smtp.ethereal.email',
         port: 587,
         auth: {
-          user: 'valerie55@ethereal.email',
-          pass: 'Z6azAWjWgBsBqBQC61'
+          user: 'sincere.kovacek@ethereal.email',
+          pass: 'etjt5SKgbdyy1zG9nQ'
         },
         secure: false
       },
