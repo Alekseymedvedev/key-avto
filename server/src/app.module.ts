@@ -13,12 +13,13 @@ import {CarBrandArticle} from "./car-brand-article/car-brand-article.model";
 import {ServeStaticModule} from "@nestjs/serve-static";
 import { SendMailerModule } from './send-mailer/send-mailer.module';
 import * as path from "path";
+import {MailerModule} from "@nestjs-modules/mailer";
 
 @Module({
   imports: [
-      ConfigModule.forRoot({
-        envFilePath:'.env.local'
-      }),
+    ConfigModule.forRoot({
+      envFilePath:'.env.local'
+    }),
     ServeStaticModule.forRoot({
       rootPath: path.resolve(__dirname, 'static'),
     }),
@@ -26,7 +27,7 @@ import * as path from "path";
       dialect: 'mysql',
       host: 'localhost',
       port: 3306,
-      username: '',
+      username: 'root',
       password: '',
       database: 'key_avto',
       models: [Category,WorkCategory,CarBrand,CarBrandArticle],

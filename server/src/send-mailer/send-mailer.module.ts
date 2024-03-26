@@ -10,14 +10,15 @@ import { SendMailerController } from './send-mailer.controller';
   imports: [
     MailerModule.forRoot({
       transport: {
-        host: 'smtp.ethereal.email',
-        port: 587,
-        auth: {
-          user: 'sincere.kovacek@ethereal.email',
-          pass: 'etjt5SKgbdyy1zG9nQ'
+        host: 'smtp.beget.com',
+        port: 2525,
+        auth:{
+          login: 'key-avto@key-avto152.ru',
+          password: 'x_29021956_X',
         },
         secure: false
       },
+
       defaults: {
         from: '"nest-modules" <modules@nestjs.com>',
       },
@@ -27,3 +28,4 @@ import { SendMailerController } from './send-mailer.controller';
   ],
 })
 export class SendMailerModule {}
+

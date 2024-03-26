@@ -1,3 +1,4 @@
+
 import {BelongsTo, Column, DataType, ForeignKey, Model, Table} from "sequelize-typescript";
 import {Category} from "../categories/categories.model";
 

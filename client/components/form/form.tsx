@@ -8,11 +8,16 @@ import {BASE_URL} from "../../API/API";
 const Form = () => {
     const [value,setValue]=useState('')
     const aaa= {phone:value}
-    const sendEmail =(e:any)=>{
-        console.log('test')
+
+    const sendEmail =async (e:any)=>{
         e.preventDefault()
-       axios.post('http://localhost:5000/send-mailer',aaa).then(()=>{
-           console.log('Отправлено')})
+        try {
+            let result = await axios.post("http://localhost:5000/send-mailer", aaa).then(()=>{
+                console.log('отправлено')});
+            console.log(result);
+        } catch (error) {
+            console.error(error);
+        }
     }
     return (
         <form className={cls.form}>
