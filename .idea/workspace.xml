@@ -1,9 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="commit">
+    <list default="true" id="c59be47f-658b-42cb-96dc-b59e27e6382b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/key-avto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/key-avto.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/send-mailer/send-mailer.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/send-mailer/send-mailer.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/API/API.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/UI/button/button.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/UI/button/button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/UI/input/input.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/UI/input/inputMask.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/address/address.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/address/address.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/banner/banner.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/banner/banner.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/brandArticle/brandArticle.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/brandArticle/brandArticle.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/brandList/brandList.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/brandList/brandList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/categgoryPreview/categgoryPreview.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/categgoryPreview/categgoryPreview.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/categorySection/categorySection.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/categorySection/categorySection.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/footer/footer.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/footer/footer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/form/form.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/form/form.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/header/header.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/header/header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/logo/logo.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/mapSection/mapSection.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/mapSection/mapSection.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/modal/modal.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/modal/modal.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/navBar/navBar.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/navBar/navBar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/phone/phone.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/phone/phone.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/priceTable/priceTable.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/priceTable/priceTable.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/social/social.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/social/social.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/workTime/workTime.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/workTime/workTime.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/hooks/hooks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/images/banner1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/images/brand/chevrolet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/images/brand/ford.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/images/brand/hyundai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/images/brand/kia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/images/brand/mazda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/images/brand/mitsubishi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/images/brand/nissan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/images/brand/opel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/images/brand/toyota.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/images/icons/call.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/images/icons/skype.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/images/icons/telegram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/images/icons/vk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/images/icons/whatsapp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/layout/mainLayout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/next.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/_app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/_document.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/about.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/api/hello.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/car-brand/[id].tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/car-brand/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/categories/[id].tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/categories/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/contacts.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/Vector.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/vercel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/vercel.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/routes/routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/store/categoriesApi.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/store/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/styles/colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/styles/globals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/styles/reset.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/types/categoryType.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,380 +102,49 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="server" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2HZcV9E00M9PcJLNN4uxpRN5tee" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2eBKbvtzLa2dyrtEV9UPKZbTHTp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/aleks/Desktop/web/react_prodject/key-avto&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\aleks\\Desktop\\web\\react_prodject\\key-avto\\server\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\aleks.DESKTOP-JLCECGV\\Desktop\\projects\\key-avto\\client-old\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\client\pages" />
-      <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\server\dist\static" />
-      <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\server\src\car-brand-article" />
-      <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\server\src\car-brand" />
-      <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\server" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\server" />
-      <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto" />
-      <recent name="C:\Users\aleks\Desktop\web\react_prodject\key-avto\client\components\modal" />
-    </key>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ae171ae1-2c2a-4b43-8e2e-321fbefd5f14" name="Changes" comment="" />
-      <created>1668496067244</created>
+      <changelist id="c59be47f-658b-42cb-96dc-b59e27e6382b" name="Changes" comment="" />
+      <created>1711372606090</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1668496067244</updated>
-      <workItem from="1668496068847" duration="7906000" />
-      <workItem from="1668504327979" duration="6543000" />
-      <workItem from="1668510980859" duration="3931000" />
-      <workItem from="1668534973375" duration="2301000" />
-      <workItem from="1668538484045" duration="1108000" />
-      <workItem from="1668567033812" duration="4171000" />
-      <workItem from="1668587754503" duration="7403000" />
-      <workItem from="1668599870749" duration="4002000" />
-      <workItem from="1668662898393" duration="23577000" />
-      <workItem from="1668695073832" duration="2391000" />
-      <workItem from="1668701371713" duration="4846000" />
-      <workItem from="1668750636507" duration="12684000" />
-      <workItem from="1668769962577" duration="8172000" />
-      <workItem from="1668780674078" duration="6581000" />
-      <workItem from="1668800610657" duration="109000" />
-      <workItem from="1668803367920" duration="905000" />
-      <workItem from="1668841451724" duration="2977000" />
-      <workItem from="1669027311947" duration="2936000" />
-      <workItem from="1669122401790" duration="1174000" />
-      <workItem from="1669187650534" duration="1756000" />
-      <workItem from="1669205452658" duration="6897000" />
-      <workItem from="1669533268452" duration="375000" />
-      <workItem from="1669574792693" duration="10997000" />
-      <workItem from="1671697102433" duration="201000" />
-      <workItem from="1671700485651" duration="10196000" />
-      <workItem from="1671715584765" duration="2213000" />
-      <workItem from="1671729976615" duration="2302000" />
-      <workItem from="1671994003675" duration="3339000" />
-      <workItem from="1672037712124" duration="6655000" />
-      <workItem from="1672044754429" duration="462000" />
-      <workItem from="1672049324706" duration="4052000" />
-      <workItem from="1673429520639" duration="3596000" />
-      <workItem from="1673449673951" duration="31000" />
-      <workItem from="1673529565480" duration="714000" />
-      <workItem from="1673608481915" duration="1820000" />
-      <workItem from="1673610475396" duration="4346000" />
-      <workItem from="1673620070820" duration="2423000" />
-      <workItem from="1673866060110" duration="2482000" />
-      <workItem from="1673947029514" duration="3562000" />
-      <workItem from="1673961926007" duration="597000" />
-      <workItem from="1673971599346" duration="759000" />
-      <workItem from="1674074634319" duration="1127000" />
-      <workItem from="1674112273403" duration="7244000" />
-      <workItem from="1674134416968" duration="1737000" />
-      <workItem from="1674312155136" duration="1061000" />
-      <workItem from="1674823781429" duration="7108000" />
-      <workItem from="1674897826126" duration="893000" />
-      <workItem from="1674901054770" duration="6393000" />
-      <workItem from="1674923639858" duration="3379000" />
-      <workItem from="1674934269971" duration="4080000" />
-      <workItem from="1674982917192" duration="5778000" />
-      <workItem from="1674989910646" duration="735000" />
-      <workItem from="1675006407216" duration="7834000" />
-      <workItem from="1675262351931" duration="1303000" />
+      <updated>1711372606090</updated>
+      <workItem from="1711372607155" duration="2845000" />
+      <workItem from="1711448227255" duration="79000" />
+      <workItem from="1711448329244" duration="5922000" />
     </task>
-    <task id="LOCAL-00001" summary="создание клиента">
-      <created>1668504706162</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1668504706162</updated>
-    </task>
-    <task id="LOCAL-00002" summary="создание сервера">
-      <created>1668505582097</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1668505582097</updated>
-    </task>
-    <task id="LOCAL-00003" summary="добавление файлов для категорий">
-      <created>1668515047290</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1668515047290</updated>
-    </task>
-    <task id="LOCAL-00004" summary="добавление карты">
-      <created>1668612044541</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1668612044541</updated>
-    </task>
-    <task id="LOCAL-00005" summary="добавление карты">
-      <created>1668612068424</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1668612068424</updated>
-    </task>
-    <task id="LOCAL-00006" summary="верстка, адаптив">
-      <created>1668689823853</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1668689823867</updated>
-    </task>
-    <task id="LOCAL-00007" summary="верстка, адаптив">
-      <created>1668690271734</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1668690271734</updated>
-    </task>
-    <task id="LOCAL-00008" summary="верстка, адаптив">
-      <created>1668766186563</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1668766186563</updated>
-    </task>
-    <task id="LOCAL-00009" summary="верстка, адаптив">
-      <created>1668766220850</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1668766220850</updated>
-    </task>
-    <task id="LOCAL-00010" summary="inputMask">
-      <created>1668792813761</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1668792813761</updated>
-    </task>
-    <task id="LOCAL-00011" summary="таблицы и связи для статей">
-      <created>1669214871516</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1669214871516</updated>
-    </task>
-    <task id="LOCAL-00012" summary="getStaticProps на главной">
-      <created>1669584395755</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1669584395755</updated>
-    </task>
-    <task id="LOCAL-00013" summary="данные на динамических страницах">
-      <created>1672069171780</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1672069171781</updated>
-    </task>
-    <task id="LOCAL-00014" summary="commit">
-      <created>1674112668889</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1674112668889</updated>
-    </task>
-    <task id="LOCAL-00015" summary="commit">
-      <created>1674117083119</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1674117083119</updated>
-    </task>
-    <task id="LOCAL-00016" summary="изменил на бд postgres">
-      <created>1674126358968</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1674126358968</updated>
-    </task>
-    <task id="LOCAL-00017" summary="изменил на бд mysql">
-      <created>1674827885477</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1674827885477</updated>
-    </task>
-    <task id="LOCAL-00018" summary="изменил на бд mysql">
-      <created>1674828047677</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1674828047677</updated>
-    </task>
-    <task id="LOCAL-00019" summary="изменил на бд mysql">
-      <created>1674828355370</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1674828355370</updated>
-    </task>
-    <task id="LOCAL-00020" summary="изменил на бд mysql">
-      <created>1674830842022</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1674830842022</updated>
-    </task>
-    <task id="LOCAL-00021" summary="доработки">
-      <created>1674936025530</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1674936025533</updated>
-    </task>
-    <task id="LOCAL-00022" summary="доработки">
-      <created>1674936953814</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1674936953814</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Почта, форма обратной связи">
-      <created>1675009678290</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1675009678291</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Почта, форма обратной связи">
-      <created>1675010106245</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1675010106245</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Почта, форма обратной связи">
-      <created>1675010189831</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1675010189831</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Почта, форма обратной связи">
-      <created>1675014397730</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1675014397730</updated>
-    </task>
-    <task id="LOCAL-00027" summary="убрал useRouter car-brand">
-      <created>1675017956400</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1675017956400</updated>
-    </task>
-    <task id="LOCAL-00028" summary="убрал useRouter car-brand">
-      <created>1675018412253</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1675018412253</updated>
-    </task>
-    <task id="LOCAL-00029" summary="убрал useRouter car-brand">
-      <created>1675018569688</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1675018569688</updated>
-    </task>
-    <task id="LOCAL-00030" summary="commit">
-      <created>1675018848083</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1675018848083</updated>
-    </task>
-    <task id="LOCAL-00031" summary="commit">
-      <created>1675020430388</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1675020430388</updated>
-    </task>
-    <task id="LOCAL-00032" summary="commit">
-      <created>1675258299136</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1675258299136</updated>
-    </task>
-    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="создание клиента" />
-    <MESSAGE value="создание сервера" />
-    <MESSAGE value="добавление файлов для категорий" />
-    <MESSAGE value="добавление карты" />
-    <MESSAGE value="верстка, адаптив" />
-    <MESSAGE value="inputMask" />
-    <MESSAGE value="таблицы и связи для статей" />
-    <MESSAGE value="getStaticProps на главной" />
-    <MESSAGE value="данные на динамических страницах" />
-    <MESSAGE value="изменил на бд postgres" />
-    <MESSAGE value="изменил на бд mysql" />
-    <MESSAGE value="доработки" />
-    <MESSAGE value="Почта, форма обратной связи" />
-    <MESSAGE value="убрал useRouter car-brand" />
-    <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/client/pages/car-brand/[id].tsx</url>
-          <line>37</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
