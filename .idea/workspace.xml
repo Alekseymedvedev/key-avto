@@ -6,102 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c59be47f-658b-42cb-96dc-b59e27e6382b" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/UI/button/button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/UI/button/button.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/UI/input/input.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/UI/input/input.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/address/address.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/address/address.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/banner/banner.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/banner/banner.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/banner/banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/banner/banner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/brandArticle/brandArticle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/brandArticle/brandArticle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/brandList/brandList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/brandList/brandList.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/brandList/brandList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/brandList/brandList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/categgoryPreview/categgoryPreview.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/categgoryPreview/categgoryPreview.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/categgoryPreview/categgoryPreview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/categgoryPreview/categgoryPreview.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/categoriesList/categoriesList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/categoriesList/categoriesList.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/categoriesList/categoriesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/categoriesList/categoriesList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/categorySection/categorySection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/categorySection/categorySection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/footer/footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/footer/footer.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/footer/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/form/form.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/form/form.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/form/form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/form/form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/header/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/header/header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/header/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/logo/logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/logo/logo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/mapSection/mapSection.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/mapSection/mapSection.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/mapSection/mapSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/mapSection/mapSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/modal/modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/modal/modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/navBar/navBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/navBar/navBar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/navBar/navBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/navBar/navBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/phone/phone.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/phone/phone.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/priceTable/priceTable.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/priceTable/priceTable.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/priceTable/priceTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/priceTable/priceTable.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/social/social.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/social/social.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/components/workTime/workTime.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/components/workTime/workTime.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/hooks/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/hooks/hooks.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/images/brand/chevrolet.png" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/images/brand/chevrolet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/images/brand/ford.png" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/images/brand/ford.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/images/brand/hyundai.png" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/images/brand/hyundai.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/images/brand/kia.png" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/images/brand/kia.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/images/brand/mazda.png" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/images/brand/mazda.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/images/brand/mitsubishi.png" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/images/brand/mitsubishi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/images/brand/nissan.png" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/images/brand/nissan.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/images/brand/opel.png" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/images/brand/opel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/images/brand/toyota.png" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/images/brand/toyota.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/images/icons/call.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/images/icons/call.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/images/icons/skype.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/images/icons/skype.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/images/icons/telegram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/images/icons/telegram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/images/icons/vk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/images/icons/vk.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/images/icons/whatsapp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/images/icons/whatsapp.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/layout/mainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/layout/mainLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/pages/_document.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/pages/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/pages/api/hello.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/pages/api/hello.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/pages/car-brand/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/pages/car-brand/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/pages/car-brand/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/pages/car-brand/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/pages/categories/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/pages/categories/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/pages/categories/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/pages/categories/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/pages/contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/pages/contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/public/Vector.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/public/Vector.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/store/categoriesApi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/store/categoriesApi.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/store/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/store/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-old/types/categoryType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-old/types/categoryType.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/API/API.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/next.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/banner1.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/banner1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/vercel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/vercel.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/page.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/entities/modal/modal.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/entities/modal/modal.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/shared/UI/button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/shared/UI/button/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/shared/UI/input/inputMask.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/shared/UI/input/inputMask.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/shared/address/address.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/shared/address/address.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/shared/phone/phone.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/shared/phone/phone.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/shared/social/social.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/shared/social/social.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/shared/workTime/workTime.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/shared/workTime/workTime.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/styles/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/styles/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crossenv/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crossenv/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,14 +38,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/aleks.DESKTOP-JLCECGV/Desktop/projects/key-avto/client/src/widgets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\aleks.DESKTOP-JLCECGV\\Desktop\\projects\\key-avto\\client-old\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\aleks.DESKTOP-JLCECGV\\Desktop\\projects\\key-avto\\client\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -170,6 +74,7 @@
       <workItem from="1711448329244" duration="6378000" />
       <workItem from="1711610617618" duration="1137000" />
       <workItem from="1711622606567" duration="8214000" />
+      <workItem from="1711633217915" duration="643000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -195,7 +100,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711633014406</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit">
+      <option name="closed" value="true" />
+      <created>1711633406161</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711633406161</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit">
+      <option name="closed" value="true" />
+      <created>1711633469415</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711633469415</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
