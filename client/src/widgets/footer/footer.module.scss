@@ -1,0 +1,64 @@
+@import "@/styles/colors";
+
+.logo {
+  color: $accent;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.footer {
+  padding: 56px 0;
+  background-color: $s;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 270px 1fr auto;
+  gap: 32px;
+
+}
+
+.box {
+  max-width: 320px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.menuList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.link {
+  max-width: max-content;
+  display: inline-block;
+  padding: 10px 24px;
+  color: $sc;
+  &.active {
+    color: $accent;
+  }
+}
+
+.list {
+  column-count: 2;
+}
+
+@media (max-width: 980px) {
+  .menuList {
+    display: none;
+  }
+  .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .list{
+    column-count: unset;
+  }
+}
