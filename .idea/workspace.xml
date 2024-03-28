@@ -4,102 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c59be47f-658b-42cb-96dc-b59e27e6382b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/key-avto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/key-avto.iml" afterDir="false" />
+    <list default="true" id="c59be47f-658b-42cb-96dc-b59e27e6382b" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/client/public/banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/categories/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/entities/form/form.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/entities/form/form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/entities/modal/modal.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/entities/modal/modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/entities/navBar/navBar.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/entities/navBar/navBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/shared/UI/button/button.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/shared/UI/button/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/shared/UI/input/input.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/shared/UI/input/inputMask.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/shared/address/address.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/shared/address/address.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/shared/logo/logo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/shared/phone/phone.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/shared/phone/phone.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/shared/social/social.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/shared/social/social.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/shared/workTime/workTime.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/shared/workTime/workTime.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/globals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/widgets/banner/banner.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/widgets/banner/banner.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/widgets/categoriesList/categoriesList.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/widgets/categoriesList/categoriesList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/API/API.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/UI/button/button.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/UI/button/button.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/UI/input/input.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/UI/input/inputMask.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/address/address.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/address/address.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/banner/banner.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/banner/banner.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/brandArticle/brandArticle.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/brandArticle/brandArticle.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/brandList/brandList.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/brandList/brandList.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/categgoryPreview/categgoryPreview.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/categgoryPreview/categgoryPreview.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/categoriesList/categoriesList.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/categorySection/categorySection.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/categorySection/categorySection.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/footer/footer.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/footer/footer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/form/form.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/form/form.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/header/header.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/header/header.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/logo/logo.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/mapSection/mapSection.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/mapSection/mapSection.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/modal/modal.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/modal/modal.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/navBar/navBar.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/navBar/navBar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/phone/phone.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/phone/phone.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/priceTable/priceTable.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/priceTable/priceTable.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/social/social.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/social/social.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/workTime/workTime.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/workTime/workTime.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/hooks/hooks.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/images/banner1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/images/brand/chevrolet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/images/brand/ford.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/images/brand/hyundai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/images/brand/kia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/images/brand/mazda.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/images/brand/mitsubishi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/images/brand/nissan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/images/brand/opel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/images/brand/toyota.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/images/icons/call.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/images/icons/skype.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/images/icons/telegram.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/images/icons/vk.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/images/icons/whatsapp.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/layout/mainLayout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/next.config.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/_app.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/_document.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/about.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/api/hello.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/car-brand/[id].tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/car-brand/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/categories/[id].tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/categories/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/contacts.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/Vector.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/vercel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/vercel.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/routes/routes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/store/categoriesApi.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/store/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/styles/colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/styles/globals.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/styles/reset.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/types/categoryType.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -121,6 +74,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/aleks.DESKTOP-JLCECGV/Desktop/projects/key-avto/client/src/widgets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -130,6 +84,18 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks.DESKTOP-JLCECGV\Desktop\projects\key-avto\client\src\widgets" />
+      <recent name="C:\Users\aleks.DESKTOP-JLCECGV\Desktop\projects\key-avto\client\public" />
+      <recent name="C:\Users\aleks.DESKTOP-JLCECGV\Desktop\projects\key-avto\client\src" />
+      <recent name="C:\Users\aleks.DESKTOP-JLCECGV\Desktop\projects\key-avto\client\src\entities" />
+      <recent name="C:\Users\aleks.DESKTOP-JLCECGV\Desktop\projects\key-avto\client\src\shared" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks.DESKTOP-JLCECGV\Desktop\projects\key-avto\client\src\app\categories\[id]" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -140,11 +106,45 @@
       <updated>1711372606090</updated>
       <workItem from="1711372607155" duration="2845000" />
       <workItem from="1711448227255" duration="79000" />
-      <workItem from="1711448329244" duration="5922000" />
+      <workItem from="1711448329244" duration="6378000" />
+      <workItem from="1711610617618" duration="1137000" />
+      <workItem from="1711622606567" duration="8214000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1711458903177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711458903177</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit">
+      <option name="closed" value="true" />
+      <created>1711458941372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711458941372</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
