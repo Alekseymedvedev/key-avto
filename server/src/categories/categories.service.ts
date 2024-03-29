@@ -24,10 +24,9 @@ export class CategoriesService {
     }
 
     async getOne(name) {
-        const oneCategory = await this.CategoryRepository.findOne({
+        return await this.CategoryRepository.findOne({
             where: {name},
             include: WorkCategory
         });
-        return oneCategory;
     }
 }

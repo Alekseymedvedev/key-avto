@@ -4,6 +4,8 @@ import {CarBrandArticle} from "../car-brand-article/car-brand-article.model";
 interface CarBrandCreateAttrs {
     name: string;
     image: string;
+    article: string;
+    description: string;
 }
 
 @Table({tableName: 'car-brand'})
@@ -16,6 +18,12 @@ export class CarBrand extends Model<CarBrand, CarBrandCreateAttrs> {
 
     @Column({type: DataType.STRING})
     image: string;
+
+    @Column({type: DataType.STRING})
+    article: string;
+
+    @Column({type: DataType.STRING})
+    description: string;
 
     @HasMany(() => CarBrandArticle)
     CarBrandArticles: CarBrandArticle[]
