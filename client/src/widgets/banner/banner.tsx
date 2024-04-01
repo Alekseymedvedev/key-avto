@@ -52,8 +52,6 @@ const Banner = () => {
                                         alt="banner"
                                         fill
                                         placeholder="blur"
-                                        // sizes="(max-width: 768px) 300px,
-                                        //   (max-width: 1200px) 600px"
                                     />
                                     </div>
                                 </div>

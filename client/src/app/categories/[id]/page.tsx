@@ -1,28 +1,66 @@
 import {Metadata} from "next";
-import {string} from "prop-types";
+import PriceTable from "@/widgets/priceTable/priceTable";
 
 interface IParams {
     params: {
         id: string
     }
 }
-async function getData(){
-    const response = await  fetch('http://localhost:5000/categories')
-    return response.json()
+
+async function getData(id: string) {
+    const response = await fetch(`${process.env.BASE_URL}categories/${id}`)
+     return response.json()
 }
 export async function generateMetadata({params: {id}}: IParams): Promise<Metadata> {
-    const categories = await getData()
+    const category = await getData(id)
     return {
-        title: `${categories[0].title}`,
-
+        title: `Автосервис "КЛЮЧ-АВТО": Надежный партнер по ремонту и обслуживанию автомобилей`,
+        description: `Сотрудники автосервиса "КЛЮЧ-АВТО" уже более 10 лет работают в сфере ремонта и технического обслуживания автомобилей различных марок и моделей. "КЛЮЧ-АВТО" пользуется заслуженной репутацией надежного, ответственного и профессионального партнера. Наши услуги включают диагностику неисправностей, регламентный и срочный ремонт, комплексное ТО и многое другое. Мы выполняем все работы эффективно, профессионально и в оговоренные сроки.`,
+        keywords: `автосервис, КЛЮЧ-АВТО, ремонт автомобилей, обслуживание, техническое обслуживание, диагностика неисправностей, профессиональный автосервис, ${category.title}`,
+        openGraph:{
+            title: `Автосервис КЛЮЧ-АВТО: Надежный партнер по ремонту и обслуживанию автомобилей`,
+            description: `Сотрудники автосервиса КЛЮЧ-АВТО уже более 10 лет работают в сфере ремонта и технического обслуживания автомобилей различных марок и моделей. Узнайте больше о наших услугах и профессиональном подходе к работе.`,
+            url:`${process.env.BASE_URL}car-brand/`,
+            images:`/`
+        }
     }
 }
 
-export default async function Category() {
+export default async function Category({params: {id}}: IParams) {
+    const category = await getData(id)
     return (
-        <main>
-            console.log(categories)
+        <>
+            <section className="categorySection _vrm">
+                <div className="container">
+                    <h1>{category?.title}</h1>
+                    <div className="grid">
+                        <div className="categoyImg">
+                            {/*<Image*/}
+                            {/*    fill*/}
+                            {/*    src={BASE_URL+category?.image}*/}
+                            {/*    alt="banner"*/}
+                            {/*    // placeholder="blur"*/}
+                            {/*/>*/}
+                        </div>
+                        <div className="flex-c">
+                            <p>
+                                Сотрудники автосервиса "КЛЮЧ-АВТО" уже более 10 лет работают в сфере ремонта и
+                                технического
+                                обслуживания автомобилей различных марок и моделей.
+                                "КЛЮЧ-АВТО" пользуется заслуженной репутацией надежного, надежного и ответственного
+                                партнера.
+                                в наших услугах - диагностика неисправностей, регламентный и срочный ремонт, комплексное
+                                ТО и т.д.
+                                Мы выполняем свои обязательства эффективно, профессионально и в срок.
+                            </p>
+                            <p>
 
-        </main>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <PriceTable worksCategories={category?.worksCategories} heading="Наши работы"/>
+        </>
     );
 }

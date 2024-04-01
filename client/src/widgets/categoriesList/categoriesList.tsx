@@ -13,7 +13,7 @@ const CategoriesList:FC<T> = ({categories}) => {
     return (
         <section className="_vrm">
             <div className="container">
-                <h2>Наши услуги </h2>
+                <h2 className={'_vrm'}>Наши услуги </h2>
                 <ul className={cls.list}>
                     {
                         categories?.length && categories.map((item:any) =>

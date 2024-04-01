@@ -3,6 +3,6 @@ export class CreateWorksDto {
     readonly image: string;
     readonly price: string;
     readonly time: string;
-    readonly catId: number
+    readonly catId: number[]
 
 }

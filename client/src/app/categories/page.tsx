@@ -1,11 +1,15 @@
-
-import BrandList from "@/widgets/brandList/brandList";
-import {brandType} from "@/types/types";
 import {Metadata} from "next";
+import CategoriesList from "@/widgets/categoriesList/categoriesList";
 
-async function getBrand():Promise<brandType[]> {
-    const response = await fetch(`${process.env.BASE_URL}car-brand`)
-    return response.json()
+interface IParams {
+    params: {
+        id: string
+    }
+}
+
+async function getData() {
+    const response = await fetch(`${process.env.BASE_URL}categories`)
+     return response.json()
 }
 export async function generateMetadata(): Promise<Metadata> {
     return {
@@ -20,12 +24,12 @@ export async function generateMetadata(): Promise<Metadata> {
         // }
     }
 }
-export default async function Brand () {
-    const brand = await getBrand()
+
+export default async function Categories() {
+    const categories = await getData()
     return (
         <>
-            <BrandList brand={brand}/>
+            <CategoriesList categories={categories}/>
         </>
     );
-};
-
+}

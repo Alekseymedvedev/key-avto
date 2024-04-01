@@ -5,7 +5,7 @@ import {WorkCategory} from "../works/works.model";
 import {FileInterceptor} from "@nestjs/platform-express";
 import {CreateWorksDto} from "../works/dto/create-works.dto";
 
-@Controller('/categories')
+@Controller('categories')
 export class CategoriesController {
 
     constructor(private categoriesService:CategoriesService) {}
@@ -25,6 +25,7 @@ export class CategoriesController {
 
     @Get(':name')
     getOne(@Param('name') name) {
+        console.log(name)
         return this.categoriesService.getOne(name);
     }
 }

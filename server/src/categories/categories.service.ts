@@ -4,6 +4,8 @@ import {Category} from "./categories.model";
 import {CreateCategoryDto} from "./dto/create-category.dto";
 import {WorkCategory} from "../works/works.model";
 import {FileService} from "../file/file.service";
+import {CarBrandArticle} from "../car-brand-article/car-brand-article.model";
+import {CarBrand} from "../car-brand/car-brand.model";
 
 
 @Injectable()
@@ -23,10 +25,11 @@ export class CategoriesService {
         return categories;
     }
 
-    async getOne(name) {
-        return await this.CategoryRepository.findOne({
+    async getOne(name): Promise<Category>  {
+        const category = await this.CategoryRepository.findOne({
             where: {name},
             include: WorkCategory
         });
+        return category;
     }
 }

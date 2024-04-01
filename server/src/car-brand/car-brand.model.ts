@@ -9,7 +9,7 @@ interface CarBrandCreateAttrs {
 }
 
 @Table({tableName: 'car-brand'})
-export class CarBrand extends Model<CarBrand, CarBrandCreateAttrs> {
+export class CarBrand extends Model {
     @Column({type: DataType.INTEGER, unique: true, autoIncrement: true, primaryKey: true})
     id: number;
 

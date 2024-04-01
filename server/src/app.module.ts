@@ -13,6 +13,7 @@ import {CarBrandArticle} from "./car-brand-article/car-brand-article.model";
 import {ServeStaticModule} from "@nestjs/serve-static";
 import { SendMailerModule } from './send-mailer/send-mailer.module';
 import * as path from "path";
+import {CategoriesWork} from "./categories/categoriesAndWoks.model";
 
 @Module({
   imports: [
@@ -29,7 +30,7 @@ import * as path from "path";
       username: 'postgres',
       password: '123456',
       database: 'key_avto',
-      models: [Category,WorkCategory,CarBrand,CarBrandArticle],
+      models: [Category,WorkCategory,CarBrand,CarBrandArticle,CategoriesWork],
       autoLoadModels:true
     }),
 

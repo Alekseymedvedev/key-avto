@@ -4,6 +4,7 @@ import "@/styles/globals.scss";
 import "@/styles/reset.scss";
 import Footer from "@/widgets/footer/footer";
 import Header from "@/widgets/header/header";
+import Breadcrumbs from "@/entities/breadcrumbs/breadcrumbs";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,9 +19,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ru">
       <body className={inter.className}>
       <Header/>
+      <Breadcrumbs/>
       <main className="main">
         {children}
       </main>

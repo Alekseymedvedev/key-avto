@@ -23,7 +23,7 @@ export class CarBrandService {
         return carBrand;
     }
 
-    async getOne(name) {
+    async getOne(name:string): Promise<CarBrand> {
         const carBrand = await this.CarBrandRepository.findOne({
             where: {name},
             include: CarBrandArticle

@@ -1,5 +1,6 @@
-import {BelongsTo, Column, DataType, ForeignKey, Model, Table} from "sequelize-typescript";
+import {BelongsTo, BelongsToMany, Column, DataType, ForeignKey, Model, Table} from "sequelize-typescript";
 import {Category} from "../categories/categories.model";
+import {CategoriesWork} from "../categories/categoriesAndWoks.model";
 
 interface WorkCategoryCreateAttrs {
     catId:number;
@@ -11,7 +12,7 @@ interface WorkCategoryCreateAttrs {
 
 
 @Table({tableName: 'works'})
-export class WorkCategory extends Model<WorkCategory, WorkCategoryCreateAttrs> {
+export class WorkCategory extends Model {
     @Column({type: DataType.INTEGER, unique: true, autoIncrement: true, primaryKey: true})
     id: number;
 
@@ -27,10 +28,7 @@ export class WorkCategory extends Model<WorkCategory, WorkCategoryCreateAttrs> {
     @Column({type: DataType.STRING})
     time: string;
 
-    @ForeignKey(() => Category)
-    @Column({type: DataType.INTEGER})
-    catId:number;
+    @BelongsToMany(() => Category, () => CategoriesWork)
+    category: Category[];
 
-    @BelongsTo(() => Category)
-    category: Category
 }

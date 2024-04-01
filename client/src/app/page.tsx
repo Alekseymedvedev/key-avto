@@ -14,20 +14,18 @@ async function getData() {
 async function getBrand():Promise<brandType[]> {
     const response = await fetch(`${process.env.BASE_URL}car-brand`)
     return response.json()
-    // return response.json()
 }
 
 export default async function Home() {
     const categories = await getData()
     const brand = await getBrand()
-    console.log(brand)
     return (
-        <main>
+        <>
             <Banner/>
             <CategoriesList categories={categories}/>
             <BrandList brand={brand}/>
             <PriceTable heading="Наши работы"/>
             <MapSection heading="Мы находимся здесь"/>
-        </main>
+        </>
     );
 }

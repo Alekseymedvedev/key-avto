@@ -67,6 +67,75 @@ P {
 .categorySection{
 
 }
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 152.35px;
+  height: 167.107px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+.loading .gear-sm {
+  position: absolute;
+  left: 30px;
+  top: 70px;
+  width: 38.419px;
+  height: 38.417px;
+  animation: spin2 .6s steps(10) infinite;
+}
+.loading .gear-med {
+  position: absolute;
+  left: 67px;
+  top: 42px;
+  width: 50.002px;
+  height: 50.004px;
+  animation: spin .6s steps(10) infinite;
+}
+.loading .gear-lg {
+  position: absolute;
+  width: 64.8px;
+  height: 64.801px;
+  animation: spin2 .6s steps(10) infinite;
+}
+
+.loading .dotline {
+  position: absolute;
+  left: -7px;
+  top: 29.2px;
+  width: 78.815px;
+  height: 41.791px;
+  transform: rotate(1deg);
+  -webkit-transform: rotate(1deg);
+}
+
+.loading .dotline .move {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear alternate infinite;
+}
+
+.loading .pad {
+  position: absolute;
+  left: 70px;
+  top: -55px;
+  width: 78.815px;
+  height: 41.791px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin2 {
+  to {
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+  }
+}
+
 @media (max-width: 980px) {
   h1 {
     margin-bottom: 32px;

@@ -14,14 +14,20 @@ async function getData(id: string) {
 export async function generateMetadata({params: {id}}: IProps): Promise<Metadata> {
     const brand = await getData(id)
     return {
-        title:`Статья о марке ${brand.name}`
+        title: `Ремонт ${brand?.name}: Как поддерживать своего надежного спутника на дорогах`,
+        description: `Статья о ремонте автомобилей марки ${brand?.name}. Узнайте как поддерживать свой ${brand?.name} в отличной рабочей форме.`,
+        keywords: `${brand?.name}, ремонт ${brand?.name}, обслуживание ${brand?.name}, автосервис, техническое обслуживание ${brand?.name}`,
+        openGraph: {
+            title: `Ремонт ${brand.name}: Как поддерживать своего надежного спутника на дорогах`,
+            description: `Статья о ремонте автомобилей марки ${brand?.name}. Узнайте как поддерживать свой ${brand?.name} в отличной рабочей форме.`,
+            url: `${process.env.BASE_URL}car-brand/${brand?.name}`,
+            images: `/${brand?.image}`
+        }
     }
 }
 
 export default async function CarBrand({params}: any) {
     const brand = await getData(params.id)
-
-    console.log(brand)
     return (
         <section className="_vrm">
             <div className="container">
