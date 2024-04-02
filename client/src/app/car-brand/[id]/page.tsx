@@ -28,6 +28,7 @@ export async function generateMetadata({params: {id}}: IProps): Promise<Metadata
 
 export default async function CarBrand({params}: any) {
     const brand = await getData(params.id)
+    console.log(brand.CarBrandArticles)
     return (
         <section className="_vrm">
             <div className="container">
@@ -50,6 +51,9 @@ export default async function CarBrand({params}: any) {
                 </div>
                 <div className="flex-c">
                     <h2>О марке</h2>
+                    {
+                        brand.CarBrandArticles[0].text
+                    }
                     {/*{*/}
                     {/*    state && state.map(item=>*/}
                     {/*        item.text ?*/}
