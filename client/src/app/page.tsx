@@ -2,7 +2,7 @@ import Banner from "@/widgets/banner/banner";
 import CategoriesList from "@/widgets/categoriesList/categoriesList";
 import MapSection from "@/widgets/mapSection/mapSection";
 import PriceTable from "@/widgets/priceTable/priceTable";
-import {brandType} from "@/types/types";
+import {bannerType, brandType} from "@/types/types";
 import BrandList from "@/widgets/brandList/brandList";
 
 
@@ -15,13 +15,18 @@ async function getBrand():Promise<brandType[]> {
     const response = await fetch(`${process.env.BASE_URL}car-brand`)
     return response.json()
 }
+async function getBanner():Promise<bannerType[]> {
+    const response = await fetch(`${process.env.BASE_URL}banner`)
+    return response.json()
+}
 
 export default async function Home() {
     const categories = await getData()
     const brand = await getBrand()
+    const banner = await getBanner()
     return (
         <>
-            <Banner/>
+            <Banner data={banner}/>
             <CategoriesList categories={categories}/>
             <BrandList brand={brand}/>
             <PriceTable heading="Наши работы"/>

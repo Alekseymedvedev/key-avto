@@ -13,8 +13,17 @@ export interface categoryType {
     title: string;
     worksCategories: worksCategoriesType[]
 }
+
 export interface brandType {
     id: number;
     image: string;
     name: string;
+}
+
+export interface bannerType {
+    id: number,
+    title: string,
+    price: string,
+    description: string,
+    image: string
 }

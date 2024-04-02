@@ -20,11 +20,6 @@ export class WorksService {
         }
 
         await work.$set('category', arrCategoryId);
-        // for (const product of dto.orderProducts) {
-        //     await CategoriesWork.update(
-        //         {where: {products: product.id}},
-        //     );
-        // }
         return work;
     }
 }

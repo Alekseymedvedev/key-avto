@@ -7,6 +7,7 @@ import * as uuid from 'uuid'
 @Injectable()
 export class FileService {
     async createFile(file): Promise<string> {
+        console.log(file)
         try {
             const fileType = file.originalname.split('.').pop()
             const fileName = uuid.v4() +'.'+ fileType;

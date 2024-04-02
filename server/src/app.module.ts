@@ -14,6 +14,7 @@ import {ServeStaticModule} from "@nestjs/serve-static";
 import { SendMailerModule } from './send-mailer/send-mailer.module';
 import * as path from "path";
 import {CategoriesWork} from "./categories/categoriesAndWoks.model";
+import { BannerModule } from './banner/banner.module';
 
 @Module({
   imports: [
@@ -40,6 +41,7 @@ import {CategoriesWork} from "./categories/categoriesAndWoks.model";
     CarBrandModule,
     CarBrandArticleModule,
     SendMailerModule,
+    BannerModule,
   ],
   controllers: [],
   providers: [],

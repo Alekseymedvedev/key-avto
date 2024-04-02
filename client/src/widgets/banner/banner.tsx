@@ -3,29 +3,19 @@
 import img1 from '@/../public/banner1.png'
 import Image from 'next/image'
 import cls from './banner.module.scss'
-import React from "react";
+import React, {FC} from "react";
 import Modal from "@/entities/modal/modal";
 import Form from "@/entities/form/form";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Pagination} from "swiper";
+import {bannerType} from "@/types/types";
 
-const state = [
-    {
-        id: '1',
-        img: img1,
-        title: 'Замена масла Опель Астра',
-        price:'5800р',
-        text: 'В стоимсоть входит масло GM, фильтр масляный, работа по замене масла'
-    },
 
-]
-
-interface State {
-    textmask: string;
-    numberformat: string;
+interface IType {
+    data: bannerType[];
 }
 
-const Banner = () => {
+const Banner:FC<IType> = ({data}) => {
 
 
     return (
@@ -33,7 +23,7 @@ const Banner = () => {
             <div className="container">
                 <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
                     {
-                        state.map(item =>
+                        data.map(item =>
                             <SwiperSlide key={item.id}>
                                 <div className={cls.inner}>
                                     <div className={cls.box}>
@@ -41,18 +31,18 @@ const Banner = () => {
                                             {item.title}
                                             <span> {item.price}</span>
                                         </h1>
-                                        <div className={cls.text}>{item.text}</div>
+                                        <div className={cls.text}>{item.description}</div>
                                         <Modal textBtn="Узнать больше">
                                             <Form/>
                                         </Modal>
                                     </div>
                                     <div className={cls.boxImg}>
-                                    <Image
-                                        src={item.img}
-                                        alt="banner"
-                                        fill
-                                        placeholder="blur"
-                                    />
+                                    {/*<Image*/}
+                                    {/*    src={item.image}*/}
+                                    {/*    alt="banner"*/}
+                                    {/*    fill*/}
+                                    {/*    placeholder="blur"*/}
+                                    {/*/>*/}
                                     </div>
                                 </div>
                             </SwiperSlide>
