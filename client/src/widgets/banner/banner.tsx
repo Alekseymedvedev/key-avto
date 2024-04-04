@@ -37,12 +37,12 @@ const Banner:FC<IType> = ({data}) => {
                                         </Modal>
                                     </div>
                                     <div className={cls.boxImg}>
-                                    {/*<Image*/}
-                                    {/*    src={item.image}*/}
-                                    {/*    alt="banner"*/}
-                                    {/*    fill*/}
-                                    {/*    placeholder="blur"*/}
-                                    {/*/>*/}
+                                    <Image
+                                        src={`/${item.image}`}
+                                        alt="banner"
+                                        fill={true}
+                                        // placeholder="blur"
+                                    />
                                     </div>
                                 </div>
                             </SwiperSlide>

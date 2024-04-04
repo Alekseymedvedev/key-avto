@@ -21,9 +21,6 @@ import { BannerModule } from './banner/banner.module';
       ConfigModule.forRoot({
         envFilePath:'.env.local'
       }),
-    ServeStaticModule.forRoot({
-      rootPath: path.resolve(__dirname, 'static'),
-    }),
     SequelizeModule.forRoot({
       dialect: 'postgres',
       host: 'localhost',

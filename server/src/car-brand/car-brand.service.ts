@@ -18,13 +18,13 @@ export class CarBrandService {
         return carBrand;
     }
 
-    async getAllCarBrand() {
-        const carBrand = await this.CarBrandRepository.findAll();
+    async getAllCarBrand(): Promise<CarBrand[]> {
+        const carBrand:CarBrand[] = await this.CarBrandRepository.findAll();
         return carBrand;
     }
 
     async getOne(name:string): Promise<CarBrand> {
-        const carBrand = await this.CarBrandRepository.findOne({
+        const carBrand : CarBrand = await this.CarBrandRepository.findOne({
             where: {name},
             include: CarBrandArticle
         });
