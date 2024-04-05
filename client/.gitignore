@@ -17,7 +17,7 @@
 # production
 /build
 /.env.local
-/public/images
+public/images
 # misc
 .DS_Store
 *.pem
