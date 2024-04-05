@@ -2,7 +2,6 @@
 "use client"
 import React from 'react';
 import cls from './footer.module.scss'
-import img1 from "../../../public/images/banner1.png";
 import Modal from "@/entities/modal/modal";
 import Logo from "@/shared/logo/logo";
 import Phone from "@/shared/phone/phone";
@@ -13,15 +12,15 @@ import {usePathname} from "next/navigation";
 
 
 const state = [
-    {id: '1', img: img1, name: "vyhlopnaya-sistema", title: 'Выхлопная система', price: 'от 4 800'},
-    {id: '2', img: img1, name: "dvigatel", title: 'Двигатель', price: 'от 4 800'},
-    {id: '6', img: img1, name: "zamena-zhidkostej", title: 'Замена жидкостей', price: 'от 4 800'},
-    {id: '7', img: img1, name: "transmissiya", title: 'Трансмиссия', price: 'от 4 800'},
-    {id: '8', img: img1, name: "kondicionery-i-otoplenie", title: 'Кондиционеры и отопление', price: 'от 4 800'},
-    {id: '9', img: img1, name: "tormoznaya-sistema", title: 'Тормозная система', price: 'от 4 800'},
-    {id: '10', img: img1, name: "rulevoe-upravlenie", title: 'Рулевое управление', price: 'от 4 800'},
-    {id: '11', img: img1, name: "tekhnicheskoe-obsluzhivanie", title: 'Техническое обслуживание', price: 'от 4 800'},
-    {id: '12', img: img1, name: "podveska", title: 'Подвеска', price: 'от 4 800'},
+    {id: '1',  name: "vyhlopnaya-sistema", title: 'Выхлопная система', price: 'от 4 800'},
+    {id: '2',  name: "dvigatel", title: 'Двигатель', price: 'от 4 800'},
+    {id: '6',  name: "zamena-zhidkostej", title: 'Замена жидкостей', price: 'от 4 800'},
+    {id: '7',  name: "transmissiya", title: 'Трансмиссия', price: 'от 4 800'},
+    {id: '8',  name: "kondicionery-i-otoplenie", title: 'Кондиционеры и отопление', price: 'от 4 800'},
+    {id: '9',  name: "tormoznaya-sistema", title: 'Тормозная система', price: 'от 4 800'},
+    {id: '10',  name: "rulevoe-upravlenie", title: 'Рулевое управление', price: 'от 4 800'},
+    {id: '11',  name: "tekhnicheskoe-obsluzhivanie", title: 'Техническое обслуживание', price: 'от 4 800'},
+    {id: '12',  name: "podveska", title: 'Подвеска', price: 'от 4 800'},
 ]
 const Footer = () => {
     const pathName = usePathname();
