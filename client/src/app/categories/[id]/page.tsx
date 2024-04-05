@@ -10,7 +10,7 @@ interface IParams {
 }
 
 async function getData(id: string) {
-    const response = await fetch(`${process.env.BASE_URL}categories/${id}`)
+    const response = await fetch(`${process.env.BASE_URL}api/categories/${id}`)
      return response.json()
 }
 export async function generateMetadata({params: {id}}: IParams): Promise<Metadata> {

@@ -7,7 +7,7 @@ interface IProps {
 }
 
 async function getData(id: string) {
-    const response = await fetch(`${process.env.BASE_URL}car-brand/${id}`)
+    const response = await fetch(`${process.env.BASE_URL}api/car-brand/${id}`)
     return response.json()
 }
 
@@ -28,6 +28,7 @@ export async function generateMetadata({params: {id}}: IProps): Promise<Metadata
 
 export default async function CarBrand({params}: any) {
     const brand = await getData(params.id)
+
     return (
         <section className="_vrm">
             <div className="container">
@@ -36,7 +37,7 @@ export default async function CarBrand({params}: any) {
                     <div className="carBrandImg">
                         <Image
                             fill
-                            src={`/${brand.image}`}
+                            src={`/images/${brand.image}`}
                             alt="banner"
                         />
                     </div>

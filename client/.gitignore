@@ -16,7 +16,8 @@
 .env.local
 # production
 /build
-
+/.env.local
+/public/images
 # misc
 .DS_Store
 *.pem

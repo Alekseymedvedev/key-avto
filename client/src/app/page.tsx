@@ -8,19 +8,19 @@ import BrandList from "@/widgets/brandList/brandList";
 
 
 async function getData() {
-    const response = await fetch(`${process.env.BASE_URL}categories`)
+    const response = await fetch(`${process.env.BASE_URL}api/categories`)
     return response.json()
 }
 async function getBrand():Promise<brandType[]> {
-    const response = await fetch(`${process.env.BASE_URL}car-brand`)
+    const response = await fetch(`${process.env.BASE_URL}api/car-brand`)
     return response.json()
 }
 async function getBanner():Promise<bannerType[]> {
-    const response = await fetch(`${process.env.BASE_URL}banner`)
+    const response = await fetch(`${process.env.BASE_URL}api/banner`)
     return response.json()
 }
 async function getPrice():Promise<categoryType> {
-    const response = await fetch(`${process.env.BASE_URL}categories/tekhnicheskoe-obsluzhivanie`)
+    const response = await fetch(`${process.env.BASE_URL}api/categories/tekhnicheskoe-obsluzhivanie`)
     return response.json()
 }
 

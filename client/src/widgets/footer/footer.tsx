@@ -2,7 +2,7 @@
 "use client"
 import React from 'react';
 import cls from './footer.module.scss'
-import img1 from "@/../public/banner1.png";
+import img1 from "../../../public/images/banner1.png";
 import Modal from "@/entities/modal/modal";
 import Logo from "@/shared/logo/logo";
 import Phone from "@/shared/phone/phone";

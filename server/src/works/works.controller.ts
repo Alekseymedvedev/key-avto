@@ -3,7 +3,7 @@ import {WorksService} from "./works.service";
 import {CreateWorksDto} from "./dto/create-works.dto";
 import {FileInterceptor} from "@nestjs/platform-express";
 
-@Controller('works')
+@Controller('api/works')
 export class WorksController {
 
     constructor(private WorksService: WorksService) {}

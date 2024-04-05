@@ -5,7 +5,7 @@ import {WorkCategory} from "../works/works.model";
 import {FileInterceptor} from "@nestjs/platform-express";
 import {CreateWorksDto} from "../works/dto/create-works.dto";
 
-@Controller('categories')
+@Controller('api/categories')
 export class CategoriesController {
 
     constructor(private categoriesService:CategoriesService) {}
