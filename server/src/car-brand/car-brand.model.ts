@@ -22,7 +22,7 @@ export class CarBrand extends Model {
     @Column({type: DataType.STRING})
     article: string;
 
-    @Column({type: DataType.STRING})
+    @Column({type: DataType.TEXT})
     description: string;
 
     @HasMany(() => CarBrandArticle)

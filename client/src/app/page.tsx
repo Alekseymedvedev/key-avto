@@ -2,21 +2,25 @@ import Banner from "@/widgets/banner/banner";
 import CategoriesList from "@/widgets/categoriesList/categoriesList";
 import MapSection from "@/widgets/mapSection/mapSection";
 import PriceTable from "@/widgets/priceTable/priceTable";
-import {bannerType, brandType} from "@/types/types";
+import {bannerType, brandType, categoryType, worksCategoriesType} from "@/types/types";
 import BrandList from "@/widgets/brandList/brandList";
 
 
 
 async function getData() {
-    const response = await fetch(`${process.env.BASE_URL}categories`)
+    const response = await fetch(`${process.env.BASE_URL}api/categories`)
     return response.json()
 }
 async function getBrand():Promise<brandType[]> {
-    const response = await fetch(`${process.env.BASE_URL}car-brand`)
+    const response = await fetch(`${process.env.BASE_URL}api/car-brand`)
     return response.json()
 }
 async function getBanner():Promise<bannerType[]> {
-    const response = await fetch(`${process.env.BASE_URL}banner`)
+    const response = await fetch(`${process.env.BASE_URL}api/banner`)
+    return response.json()
+}
+async function getPrice():Promise<categoryType> {
+    const response = await fetch(`${process.env.BASE_URL}api/categories/tekhnicheskoe-obsluzhivanie`)
     return response.json()
 }
 
@@ -24,12 +28,13 @@ export default async function Home() {
     const categories = await getData()
     const brand = await getBrand()
     const banner = await getBanner()
+    const price = await getPrice()
     return (
         <>
             <Banner data={banner}/>
             <CategoriesList categories={categories}/>
             <BrandList brand={brand}/>
-            <PriceTable heading="Наши работы"/>
+            <PriceTable heading="Наши работы"  worksCategories={price.categoriesWork}/>
             <MapSection heading="Мы находимся здесь"/>
         </>
     );

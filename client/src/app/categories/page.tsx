@@ -8,7 +8,7 @@ interface IParams {
 }
 
 async function getData() {
-    const response = await fetch(`${process.env.BASE_URL}categories`)
+    const response = await fetch(`${process.env.BASE_URL}api/categories`)
      return response.json()
 }
 export async function generateMetadata(): Promise<Metadata> {

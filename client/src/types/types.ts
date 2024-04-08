@@ -11,7 +11,7 @@ export interface categoryType {
     image: string;
     name: string;
     title: string;
-    worksCategories: worksCategoriesType[]
+    categoriesWork: worksCategoriesType[]
 }
 
 export interface brandType {

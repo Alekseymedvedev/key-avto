@@ -1,5 +1,7 @@
 import {Metadata} from "next";
 import PriceTable from "@/widgets/priceTable/priceTable";
+import Image from "next/image";
+import React from "react";
 
 interface IParams {
     params: {
@@ -8,7 +10,7 @@ interface IParams {
 }
 
 async function getData(id: string) {
-    const response = await fetch(`${process.env.BASE_URL}categories/${id}`)
+    const response = await fetch(`${process.env.BASE_URL}api/categories/${id}`)
      return response.json()
 }
 export async function generateMetadata({params: {id}}: IParams): Promise<Metadata> {
@@ -35,12 +37,11 @@ export default async function Category({params: {id}}: IParams) {
                     <h1>{category?.title}</h1>
                     <div className="grid">
                         <div className="categoyImg">
-                            {/*<Image*/}
-                            {/*    fill*/}
-                            {/*    src={BASE_URL+category?.image}*/}
-                            {/*    alt="banner"*/}
-                            {/*    // placeholder="blur"*/}
-                            {/*/>*/}
+                            <Image
+                                fill
+                                src={`/${category?.image}`}
+                                alt="banner"
+                            />
                         </div>
                         <div className="flex-c">
                             <p>
@@ -60,7 +61,7 @@ export default async function Category({params: {id}}: IParams) {
                     </div>
                 </div>
             </section>
-            <PriceTable worksCategories={category?.worksCategories} heading="Наши работы"/>
+            <PriceTable worksCategories={category?.categoriesWork} heading="Наши работы"/>
         </>
     );
 }

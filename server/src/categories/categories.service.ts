@@ -20,13 +20,13 @@ export class CategoriesService {
         return category;
     }
 
-    async getAllCategories() {
-        const categories = await this.CategoryRepository.findAll();
+    async getAllCategories(): Promise<Category[]>  {
+        const categories:Category[] = await this.CategoryRepository.findAll();
         return categories;
     }
 
     async getOne(name): Promise<Category>  {
-        const category = await this.CategoryRepository.findOne({
+        const category:Category = await this.CategoryRepository.findOne({
             where: {name},
             include: WorkCategory
         });

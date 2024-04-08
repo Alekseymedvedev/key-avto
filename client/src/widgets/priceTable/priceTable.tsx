@@ -8,10 +8,9 @@ import Image from "next/image";
 
 interface IType{
     heading: string
+    worksCategories:worksCategoriesType[]
 }
-export default async function PriceTable ({heading}:any)  {
-    // const category = await getData()
-    // console.log(category)
+export default async function PriceTable ({heading,worksCategories}:IType)  {
     return (
         <section className="_vrm">
             <div className="container">
@@ -27,30 +26,20 @@ export default async function PriceTable ({heading}:any)  {
                         </tr>
                         </thead>
                         <tbody>
-                        {/*{*/}
-                        {/*    worksCategories ?*/}
-                        {/*        worksCategories.map(item=>*/}
-                        {/*        <tr key={item.id}>*/}
-                        {/*            <td className={cls.name}>*/}
-                        {/*                <Image*/}
-                        {/*                    width={120}*/}
-                        {/*                    height={80}*/}
-                        {/*                    src={`/${item?.image}`}*/}
-                        {/*                    alt={item?.name}*/}
-                        {/*                />*/}
-                        {/*                {item.name}*/}
-                        {/*            </td>*/}
-                        {/*            <td>от {item.price}</td>*/}
-                        {/*            <td>от {item.time}</td>*/}
-                        {/*            <td>*/}
-                        {/*                <Modal textBtn="Записаться на ТО">*/}
-                        {/*                    <Form/>*/}
-                        {/*                </Modal>*/}
-                        {/*            </td>*/}
-                        {/*        </tr>*/}
-                        {/*    ):*/}
-                        {/*        ''*/}
-                        {/*}*/}
+                        {
+                            worksCategories.length>0 && worksCategories?.map(item=>
+                                <tr key={item.id}>
+                                    <td className={cls.name}>{item.name}</td>
+                                    <td>от {item.price}₽</td>
+                                    <td>от {item.time}</td>
+                                    <td>
+                                        <Modal textBtn="Записаться на ТО">
+                                            <Form/>
+                                        </Modal>
+                                    </td>
+                                </tr>
+                            )
+                        }
                         </tbody>
                     </table>
                 </div>

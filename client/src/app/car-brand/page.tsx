@@ -4,7 +4,7 @@ import {brandType} from "@/types/types";
 import {Metadata} from "next";
 
 async function getBrand():Promise<brandType[]> {
-    const response = await fetch(`${process.env.BASE_URL}car-brand`)
+    const response = await fetch(`${process.env.BASE_URL}api/car-brand`)
     return response.json()
 }
 export async function generateMetadata(): Promise<Metadata> {

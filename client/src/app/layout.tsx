@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "@/styles/globals.scss";
 import "@/styles/reset.scss";
+import "@/styles/globals.scss";
 import Footer from "@/widgets/footer/footer";
 import Header from "@/widgets/header/header";
 import Breadcrumbs from "@/entities/breadcrumbs/breadcrumbs";

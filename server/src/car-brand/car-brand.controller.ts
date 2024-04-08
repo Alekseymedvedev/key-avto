@@ -3,7 +3,7 @@ import {FileInterceptor} from "@nestjs/platform-express";
 import {CreateCategoryDto} from "../categories/dto/create-category.dto";
 import {CarBrandService} from "./car-brand.service";
 
-@Controller('car-brand')
+@Controller('api/car-brand')
 export class CarBrandController {
     constructor(private carBrandService:CarBrandService) {}
 

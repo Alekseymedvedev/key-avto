@@ -1,6 +1,6 @@
 "use client"
 
-import img1 from '@/../public/banner1.png'
+import img1 from '../../../public/images/banner1.png'
 import Image from 'next/image'
 import cls from './banner.module.scss'
 import React, {FC} from "react";
@@ -37,12 +37,12 @@ const Banner:FC<IType> = ({data}) => {
                                         </Modal>
                                     </div>
                                     <div className={cls.boxImg}>
-                                    {/*<Image*/}
-                                    {/*    src={item.image}*/}
-                                    {/*    alt="banner"*/}
-                                    {/*    fill*/}
-                                    {/*    placeholder="blur"*/}
-                                    {/*/>*/}
+                                    <Image
+                                        src={`/${item.image}`}
+                                        alt="banner"
+                                        fill={true}
+                                        // placeholder="blur"
+                                    />
                                     </div>
                                 </div>
                             </SwiperSlide>
