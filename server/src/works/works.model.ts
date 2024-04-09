@@ -17,9 +17,6 @@ export class WorkCategory extends Model {
     id: number;
 
     @Column({type: DataType.STRING})
-    image: string;
-
-    @Column({type: DataType.STRING})
     name: string;
 
     @Column({type: DataType.STRING})
@@ -30,5 +27,4 @@ export class WorkCategory extends Model {
 
     @BelongsToMany(() => Category, () => CategoriesWork)
     category: Category[];
-
 }
