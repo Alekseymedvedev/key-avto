@@ -31,7 +31,7 @@ export default async function PriceTable ({heading,worksCategories}:IType)  {
                                 <tr key={item.id}>
                                     <td className={cls.name}>{item.name}</td>
                                     <td>от {item.price}₽</td>
-                                    <td>от {item.time}</td>
+                                    <td>от {item.time} мин.</td>
                                     <td>
                                         <Modal textBtn="Записаться на ТО">
                                             <Form/>

@@ -10,8 +10,7 @@ export class WorksController {
 
     @Post()
     @UseInterceptors(FileInterceptor('image'))
-    createPost(@Body() dto: CreateWorksDto,
-               @UploadedFile() image) {
-        return this.WorksService.createWorks(dto, image)
+    createPost(@Body() dto: CreateWorksDto) {
+        return this.WorksService.createWorks(dto)
     }
 }

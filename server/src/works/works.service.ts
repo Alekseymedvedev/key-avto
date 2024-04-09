@@ -11,9 +11,8 @@ export class WorksService {
     constructor(@InjectModel(WorkCategory) private WorkRepository: typeof WorkCategory,
                 private FileService: FileService) {}
 
-    async createWorks(WorksDto: CreateWorksDto, image: any) {
-        const fileName = await this.FileService.createFile(image)
-        const work = await this.WorkRepository.create({...WorksDto, image: fileName})
+    async createWorks(WorksDto: CreateWorksDto) {
+        const work = await this.WorkRepository.create({...WorksDto})
         let arrCategoryId = [];
         for (const category of WorksDto.catId) {
             arrCategoryId.push(category);

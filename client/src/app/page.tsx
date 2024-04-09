@@ -19,7 +19,7 @@ async function getBanner():Promise<bannerType[]> {
     const response = await fetch(`${process.env.BASE_URL}api/banner`)
     return response.json()
 }
-async function getPrice():Promise<categoryType> {
+async function getPrice() {
     const response = await fetch(`${process.env.BASE_URL}api/categories/tekhnicheskoe-obsluzhivanie`)
     return response.json()
 }
