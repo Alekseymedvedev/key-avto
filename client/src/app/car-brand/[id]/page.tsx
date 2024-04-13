@@ -37,8 +37,8 @@ export default async function CarBrand({params}: any) {
                     <div className="carBrandImg">
                         <Image
                             fill
-                            src={`/images/${brand.image}`}
-                            alt="banner"
+                            src={`${process.env.BASE_URL}${brand.image}`}
+                            alt={brand.name}
                         />
                     </div>
                     <p>{brand.description}</p>
