@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         title: "Автосервис КЛЮЧ-АВТО – качественное обслуживание и ремонт автомобилей",
         description: "Предлагаем качественное обслуживание и ремонт автомобилей в КЛЮЧ-АВТО автосервисе. Профессиональные мастера, быстрое обслуживание, доступные цены.",
         url:`${process.env.BASE_URL}`,
-        images:`${process.env.BASE_URL}logo.svg`
+        images:`${process.env.BASE_URL}banner.png`
     }
 };
 

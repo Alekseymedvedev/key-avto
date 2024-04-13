@@ -25,7 +25,6 @@ export class CategoriesController {
 
     @Get(':name')
     getOne(@Param('name') name) {
-        console.log(name)
         return this.categoriesService.getOne(name);
     }
 }

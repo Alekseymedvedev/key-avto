@@ -11,7 +11,6 @@ const Form = () => {
     const [value,setValue]=useState('')
     const aaa= {phone:value}
     const sendEmail =(e:any)=>{
-        console.log('test')
         e.preventDefault()
        axios.post('http://localhost:5000/send-mailer',aaa).then(()=>{
            console.log('Отправлено')})

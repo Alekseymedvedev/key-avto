@@ -1,6 +1,6 @@
 "use client"
 
-import img1 from '../../../public/images/banner1.png'
+import img1 from '../../../public/banner.png'
 import Image from 'next/image'
 import cls from './banner.module.scss'
 import React, {FC} from "react";

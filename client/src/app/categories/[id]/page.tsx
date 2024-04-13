@@ -22,8 +22,8 @@ export async function generateMetadata({params: {id}}: IParams): Promise<Metadat
         openGraph:{
             title: `Автосервис КЛЮЧ-АВТО: Надежный партнер по ремонту и обслуживанию автомобилей`,
             description: `Сотрудники автосервиса КЛЮЧ-АВТО уже более 10 лет работают в сфере ремонта и технического обслуживания автомобилей различных марок и моделей. Узнайте больше о наших услугах и профессиональном подходе к работе.`,
-            url:`${process.env.BASE_URL}car-brand/`,
-            images:`/`
+            url:`${process.env.BASE_URL}api/categories/${id}`,
+            images:`${category.image}`
         }
     }
 }
@@ -53,9 +53,6 @@ export default async function Category({params: {id}}: IParams) {
                                 в наших услугах - диагностика неисправностей, регламентный и срочный ремонт, комплексное
                                 ТО и т.д.
                                 Мы выполняем свои обязательства эффективно, профессионально и в срок.
-                            </p>
-                            <p>
-
                             </p>
                         </div>
                     </div>

@@ -21,7 +21,7 @@ export async function generateMetadata({params: {id}}: IProps): Promise<Metadata
             title: `Ремонт ${brand.name}: Как поддерживать своего надежного спутника на дорогах`,
             description: `Статья о ремонте автомобилей марки ${brand?.name}. Узнайте как поддерживать свой ${brand?.name} в отличной рабочей форме.`,
             url: `${process.env.BASE_URL}car-brand/${brand?.name}`,
-            images: `/${brand?.image}`
+            images: `${process.env.BASE_URL}${brand?.image}`
         }
     }
 }
