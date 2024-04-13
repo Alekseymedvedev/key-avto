@@ -23,7 +23,7 @@ export async function generateMetadata({params: {id}}: IParams): Promise<Metadat
             title: `Автосервис КЛЮЧ-АВТО: Надежный партнер по ремонту и обслуживанию автомобилей`,
             description: `Сотрудники автосервиса КЛЮЧ-АВТО уже более 10 лет работают в сфере ремонта и технического обслуживания автомобилей различных марок и моделей. Узнайте больше о наших услугах и профессиональном подходе к работе.`,
             url:`${process.env.BASE_URL}api/categories/${id}`,
-            images:`${category.image}`
+            images:`${process.env.BASE_URL}${category.image}`
         }
     }
 }
