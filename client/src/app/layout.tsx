@@ -15,8 +15,8 @@ export const metadata: Metadata = {
     openGraph:{
         title: "Автосервис КЛЮЧ-АВТО – качественное обслуживание и ремонт автомобилей",
         description: "Предлагаем качественное обслуживание и ремонт автомобилей в КЛЮЧ-АВТО автосервисе. Профессиональные мастера, быстрое обслуживание, доступные цены.",
-        url:`https://key-avto152.ru/`,
-        images:`/logo.svg`
+        url:`${process.env.BASE_URL}`,
+        images:`${process.env.BASE_URL}logo.svg`
     }
 };
 
