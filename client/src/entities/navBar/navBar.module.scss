@@ -33,16 +33,24 @@
   align-items: center;
   //justify-content: center;
 }
-
+.menuBtn{
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  z-index: 100;
+}
 
 @media (max-width: 670px) {
-
+.menuBtn{
+  display: block;
+}
   .menu {
     flex-direction: column;
     width: 100%;
     background-color: $b;
     position: absolute;
-    top: 80px;
+    top: 52px;
     z-index: 10;
     transform: translateX(-120%);
     transition: all .3s;
