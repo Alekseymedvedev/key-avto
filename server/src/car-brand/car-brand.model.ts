@@ -19,7 +19,7 @@ export class CarBrand extends Model {
     @Column({type: DataType.STRING})
     image: string;
 
-    @Column({type: DataType.STRING})
+    @Column({type: DataType.TEXT})
     article: string;
 
     @Column({type: DataType.TEXT})
