@@ -47,7 +47,7 @@ export default async function CarBrand({params}: any) {
                     <h2>О марке</h2>
                     <div>
                         {
-                            brand.CarBrandArticles && brand.CarBrandArticles[0].text.split('\n').map((item: any) =>
+                            brand.article && brand.article.split('\n').map((item: any) =>
                                 item && <p key={item}>{item}</p>
                             )
                         }
