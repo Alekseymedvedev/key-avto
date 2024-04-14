@@ -44,6 +44,7 @@ const Footer = () => {
                                     <Link
                                          className={pathName === item.path ? cls.link + ' ' + cls.active : cls.link}
                                         href={item.path}
+                                         aria-label={`ссылка на страницу ${item.name}`}
                                     >
                                         {item.name}
                                     </Link>
@@ -55,7 +56,7 @@ const Footer = () => {
                         {
                             state.map(item =>
                                 <li key={item.id}>
-                                    <Link className={cls.link} href={`/categories/` + item.name}>
+                                    <Link className={cls.link} href={`/categories/` + item.name} aria-label={`ссылка на страницу ${item.name}`}>
                                         {item.title}
                                     </Link>
                                 </li>
