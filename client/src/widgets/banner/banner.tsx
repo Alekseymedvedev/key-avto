@@ -40,8 +40,9 @@ const Banner:FC<IType> = ({data}) => {
                                     <Image
                                         src={`/${item.image}`}
                                         alt="banner"
-                                        fill={true}
-                                        // placeholder="blur"
+                                        width={570}
+                                        height={420}
+                                        priority
                                     />
                                     </div>
                                 </div>
