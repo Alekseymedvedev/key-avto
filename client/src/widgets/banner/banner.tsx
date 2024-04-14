@@ -15,11 +15,11 @@ interface IType {
     data: bannerType[];
 }
 
-const Banner:FC<IType> = ({data}) => {
+const Banner: FC<IType> = ({data}) => {
 
 
     return (
-        <section className={cls.banner +" _vrm"}>
+        <section className={cls.banner + " _vrm"}>
             <div className="container">
                 <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
                     {
@@ -36,15 +36,15 @@ const Banner:FC<IType> = ({data}) => {
                                             <Form/>
                                         </Modal>
                                     </div>
-                                    <div className={cls.boxImg}>
-                                    <Image
-                                        src={`/${item.image}`}
-                                        alt="banner"
-                                        width={570}
-                                        height={420}
-                                        priority
-                                    />
-                                    </div>
+                                    {/*<div className={cls.boxImg}>*/}
+                                    {/*    <Image*/}
+                                    {/*        src={`/${item.image}`}*/}
+                                    {/*        alt="banner"*/}
+                                    {/*        width={570}*/}
+                                    {/*        height={420}*/}
+                                    {/*        priority*/}
+                                    {/*    />*/}
+                                    {/*</div>*/}
                                 </div>
                             </SwiperSlide>
                         )
