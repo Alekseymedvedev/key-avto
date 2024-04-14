@@ -1,11 +1,6 @@
 "use client"
-
-import img1 from '../../../public/banner.png'
-import Image from 'next/image'
 import cls from './banner.module.scss'
 import React, {FC} from "react";
-import Modal from "@/entities/modal/modal";
-import Form from "@/entities/form/form";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Pagination} from "swiper";
 import {bannerType} from "@/types/types";
