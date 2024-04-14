@@ -23,7 +23,7 @@ const CategoriesList:FC<T> = ({categories}) => {
                                         <div className={cls.title}>{item.title}</div>
                                     </div>
                                     <div className={cls.img}>
-                                        <Image width={135} height={100} src={`/${item.image}` } alt={item.title} />
+                                        <Image width={135} height={100} src={`/${item.image}` } alt={''} />
                                     </div>
                                 </Link>
                             </li>
