@@ -35,7 +35,7 @@ export default async function Home() {
             <CategoriesList categories={categories}/>
             <BrandList brand={brand}/>
             <PriceTable heading="Наши работы"  worksCategories={price.categoriesWork}/>
-            <MapSection heading="Мы находимся здесь"/>
+            {/*<MapSection heading="Мы находимся здесь"/>*/}
         </>
     );
 }
