@@ -11,7 +11,7 @@ const Button: FC<T> = ({children, onClick}) => {
     return (
         <button className={cls.btn} onClick={(e) => {
             onClick ? onClick(e) : null
-        }}>
+        }} aria-label={`кнопка открытия модального окна`}>
             {children}
         </button>
     );

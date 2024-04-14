@@ -18,7 +18,7 @@ const CategoriesList:FC<T> = ({categories}) => {
                     {
                         categories?.length && categories.map((item:any) =>
                             <li key={item.id}>
-                                <Link className={cls.item} href={`/categories/` + item.name}>
+                                <Link className={cls.item} href={`/categories/` + item.name} aria-label={`ссылка на категорию ${item.title}`}>
                                     <div className={cls.box}>
                                         <div className={cls.title}>{item.title}</div>
                                     </div>

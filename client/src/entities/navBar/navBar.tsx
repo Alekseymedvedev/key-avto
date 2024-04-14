@@ -19,7 +19,7 @@ const NavBar: FC<T> = () => {
                 <div className={cls.menuBtn}>
                     {
                         menuActive ?
-                            <button onClick={() => setMenuActive(false)}>
+                            <button onClick={() => setMenuActive(false)}  aria-label={`кнопка открытия меню`}>
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect width="35.4683" height="9.21254" rx="3"
                                           transform="matrix(0.705326 0.708883 -0.705326 0.708883 6.5 0.328125)" fill="#212121"/>
@@ -30,7 +30,7 @@ const NavBar: FC<T> = () => {
                             </button>
 
                             :
-                            <button onClick={() => setMenuActive(true)}>
+                            <button onClick={() => setMenuActive(true)} aria-label={`закрытия открытия меню`}>
                                 <Image src={'/menuIcon.png'} alt={'menuIcon'} width={40} height={40}/>
                             </button>
                     }
@@ -44,6 +44,7 @@ const NavBar: FC<T> = () => {
                                 className={pathName === item.path ? cls.link + ' ' + cls.active : cls.link}
                                 href={item.path}
                                 key={item.path}
+                                aria-label={`ссылка на ${item.name}`}
                             >
                                 {item.name}
                             </Link>

@@ -50,7 +50,7 @@ const BrandList:FC<T> = ({brand}) => {
                     {
                         brand?.length &&  brand.map(item =>
                             <SwiperSlide key={item?.id} className={cls.item}>
-                                <Link href={'car-brand/' + item?.name} className={cls.link}>
+                                <Link href={'car-brand/' + item?.name} className={cls.link}  aria-label={`ссылка на раздел ${item.name}`}>
                                     <Image
                                         width={70}
                                         height={70}

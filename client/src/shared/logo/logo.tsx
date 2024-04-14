@@ -20,7 +20,7 @@ const Logo = () => {
                          />
                     </span>
                     :
-                    <Link href='/'>
+                    <Link href='/'  aria-label={'логотип, ссылка на главную'}>
                         <Image
                             width={270}
                             height={80}
