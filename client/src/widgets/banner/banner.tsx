@@ -32,9 +32,9 @@ const Banner: FC<IType> = ({data}) => {
                                             <span> {item.price}₽</span>
                                         </h1>
                                         <div className={cls.text}>{item.description}</div>
-                                        <Modal textBtn="Узнать больше">
-                                            <Form/>
-                                        </Modal>
+                                        {/*<Modal textBtn="Узнать больше">*/}
+                                        {/*    <Form/>*/}
+                                        {/*</Modal>*/}
                                     </div>
                                     {/*<div className={cls.boxImg}>*/}
                                     {/*    <Image*/}
