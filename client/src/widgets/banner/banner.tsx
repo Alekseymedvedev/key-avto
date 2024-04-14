@@ -1,6 +1,9 @@
 "use client"
+
+import Image from 'next/image'
 import cls from './banner.module.scss'
 import React, {FC} from "react";
+import Modal from "@/entities/modal/modal";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Pagination} from "swiper";
 import {bannerType} from "@/types/types";
@@ -31,15 +34,15 @@ const Banner: FC<IType> = ({data}) => {
                                         {/*    <Form/>*/}
                                         {/*</Modal>*/}
                                     </div>
-                                    {/*<div className={cls.boxImg}>*/}
-                                    {/*    <Image*/}
-                                    {/*        src={`/${item.image}`}*/}
-                                    {/*        alt="banner"*/}
-                                    {/*        width={570}*/}
-                                    {/*        height={420}*/}
-                                    {/*        priority*/}
-                                    {/*    />*/}
-                                    {/*</div>*/}
+                                    <div className={cls.boxImg}>
+                                        <Image
+                                            src={`/${item.image}`}
+                                            alt="banner"
+                                            width={570}
+                                            height={420}
+                                            priority
+                                        />
+                                    </div>
                                 </div>
                             </SwiperSlide>
                         )
