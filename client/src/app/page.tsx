@@ -4,6 +4,8 @@ import MapSection from "@/widgets/mapSection/mapSection";
 import PriceTable from "@/widgets/priceTable/priceTable";
 import {bannerType, brandType, categoryType, worksCategoriesType} from "@/types/types";
 import BrandList from "@/widgets/brandList/brandList";
+import {Suspense} from "react";
+import {BannerLazy} from "@/widgets/banner/bannerLazy";
 
 
 
@@ -31,7 +33,10 @@ export default async function Home() {
     const price = await getPrice()
     return (
         <>
-            <Banner data={banner}/>
+            <Suspense fallback={'...'}>
+                <BannerLazy data={banner}/>
+            </Suspense>
+
             <CategoriesList categories={categories}/>
             <BrandList brand={brand}/>
             <PriceTable heading="Наши работы"  worksCategories={price.categoriesWork}/>
