@@ -15,8 +15,8 @@ export async function generateMetadata(): Promise<Metadata> {
         openGraph:{
             title: `Автосервис КЛЮЧ-АВТО: Надежный партнер по ремонту и обслуживанию автомобилей`,
             description: `Сотрудники автосервиса КЛЮЧ-АВТО уже более 10 лет работают в сфере ремонта и технического обслуживания автомобилей различных марок и моделей. Узнайте больше о наших услугах и профессиональном подходе к работе.`,
-            url:`${process.env.BASE_URL}car-brand/`,
-            images:`/`
+            url:`${process.env.BASE_URL}api/car-brand/`,
+            images:`${process.env.BASE_URL}banner.png`
         }
     }
 }

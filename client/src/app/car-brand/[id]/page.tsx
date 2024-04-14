@@ -21,7 +21,7 @@ export async function generateMetadata({params: {id}}: IProps): Promise<Metadata
             title: `Ремонт ${brand.name}: Как поддерживать своего надежного спутника на дорогах`,
             description: `Статья о ремонте автомобилей марки ${brand?.name}. Узнайте как поддерживать свой ${brand?.name} в отличной рабочей форме.`,
             url: `${process.env.BASE_URL}car-brand/${brand?.name}`,
-            images: `/${brand?.image}`
+            images: `${process.env.BASE_URL}${brand?.image}`
         }
     }
 }
@@ -37,8 +37,8 @@ export default async function CarBrand({params}: any) {
                     <div className="carBrandImg">
                         <Image
                             fill
-                            src={`/images/${brand.image}`}
-                            alt="banner"
+                            src={`/${brand.image}`}
+                            alt={brand.name}
                         />
                     </div>
                     <p>{brand.description}</p>
@@ -47,7 +47,7 @@ export default async function CarBrand({params}: any) {
                     <h2>О марке</h2>
                     <div>
                         {
-                            brand.CarBrandArticles && brand.CarBrandArticles[0].text.split('\n').map((item: any) =>
+                            brand.article && brand.article.split('\n').map((item: any) =>
                                 item && <p key={item}>{item}</p>
                             )
                         }

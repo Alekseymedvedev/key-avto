@@ -21,7 +21,6 @@ const [visible,setVisible]=useState(false)
         <>
             <div className="" onClick={() => {
                 setVisible(true)
-                console.log(15245214)
             }
 
             }>

@@ -30,4 +30,11 @@ export class CarBrandService {
         });
         return carBrand;
     }
+    async update(name: string, dto, image): Promise<CarBrand>{
+        const brand : CarBrand = await this.CarBrandRepository.findOne({ where: { name } });
+
+        const fileName =image ?  await this.FileService.createFile(image) : brand.image;
+        await brand.update({ ...dto, image: fileName });
+        return brand;
+    }
 }

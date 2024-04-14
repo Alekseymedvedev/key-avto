@@ -5,7 +5,7 @@ interface CarBrandCreateArticleAttrs {
     text: string;
     carBrandId: number;
 }
-@Table({tableName: 'car-brand-article'})
+@Table({tableName: 'car_brand_article'})
 export class CarBrandArticle extends Model<CarBrandArticle, CarBrandCreateArticleAttrs> {
     @Column({type: DataType.INTEGER, unique: true, autoIncrement: true, primaryKey: true})
     id: number;
