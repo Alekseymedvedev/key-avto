@@ -30,17 +30,18 @@ export default async function Home() {
     const categories = await getData()
     const brand = await getBrand()
     const banner = await getBanner()
-    const price = await getPrice()
+    // const price = await getPrice()
     return (
         <>
+
             <Suspense fallback={'...'}>
                 <BannerLazy data={banner}/>
             </Suspense>
 
             <CategoriesList categories={categories}/>
             <BrandList brand={brand}/>
-            <PriceTable heading="Наши работы"  worksCategories={price.categoriesWork}/>
-            {/*<MapSection heading="Мы находимся здесь"/>*/}
+            {/*<PriceTable heading="Наши работы"  worksCategories={price.categoriesWork}/>*/}
+            <MapSection heading="Мы находимся здесь"/>
         </>
     );
 }
